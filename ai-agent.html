@@ -19,13 +19,7 @@
   </noscript>
 </head>
 <body>
-  <div id="__bundler_thumbnail">
-<svg xmlns="http://www.w3.org/2000/svg" sc-camel-view-box="0 0 200 200" data-bg-color="#FFFFFF">
-<rect width="200" height="200" fill="#FFFFFF"></rect>
-<text x="100" y="120" font-family="Georgia, serif" font-size="60" font-weight="700" fill="#DB2777" text-anchor="middle">a.</text>
-</svg>
-</div>
-  <div id="__bundler_loading">Unpacking...</div>
+  <div id="__bundler_loading" style="position:fixed;inset:0;display:flex;align-items:center;justify-content:center;font-family:system-ui,sans-serif;font-size:16px;color:#DB2777;background:#FFFFFF;z-index:99998;">0%</div>
 
   <script>
     
@@ -216,7 +210,14 @@ document.addEventListener('DOMContentLoaded', async function() {
     });
 
     const uuids = Object.keys(manifest);
-    setStatus('Unpacking ' + uuids.length + ' assets...');
+    setStatus('0%');
+    let __loadedCount = 0;
+    const __totalCount = uuids.length;
+    function __bumpProgress() {
+      __loadedCount++;
+      const pct = __totalCount ? Math.round((__loadedCount / __totalCount) * 100) : 100;
+      setStatus(pct + '%');
+    }
 
     await Promise.all(uuids.map(async (uuid) => {
       const entry = manifest[uuid];
@@ -267,6 +268,8 @@ document.addEventListener('DOMContentLoaded', async function() {
         const blob = new Blob([], { type: entry.mime });
         blobUrls[uuid] = URL.createObjectURL(blob);
         resourceBlobs[blobUrls[uuid]] = blob;
+      } finally {
+        __bumpProgress();
       }
     }));
 
