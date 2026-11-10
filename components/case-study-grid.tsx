@@ -32,7 +32,7 @@ const caseStudies: CaseStudy[] = [
     organizationLogo: "/logos/eddi-mark.svg",
     position: "Senior Product Designer",
     title: "From \"you're a match\" to \"ready to submit\"",
-    description: "Redesigned AI grant matching and built the company's first design system along the way.",
+    description: "Redesigned an AI grant matching and built the company's first design system along the way.",
     href: "/case-studies/eddi",
     thumbnail: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-11-09%20at%2022.39.38-57uCM1UNLzYs6jFXGmZ8EmcIGFSbK7.png",
     thumbnailAlt: "Eddi grants dashboard shown on a laptop against a yellow background",
