@@ -31,7 +31,7 @@ const civicWorks: CivicWork[] = [
     year: "2024",
     title: "Co-Designing a procurement process with Trellick Tower and Edenham Estate",
     description:
-      "At Trellick Tower and Edenham Estate in London, residents waited months for repairs, saw work marked complete without anyone checking with them, and had no say in which contractors were hired or how. After a site visit to both estates, I facilitated two days of workshops in their clubrooms. On the first day, residents mapped the current tender process and showed where it failed them and where they wanted to be involved. On the second, I co-designed a service journey map with residents that traced each step from both the residents’ and the council’s side, showing where trust broke down. The redesign put residents at specific points in the procurement process: helping write the brief and its success measures, checking quality during the work, and inspecting the finished work against those measures, with pay for their time.",
+      "At Trellick Tower and Edenham Estate in London, residents waited months for repairs, saw work marked complete without anyone checking with them, and had no say in which contractors were hired or how. I facilitated two days of in-person workshops to map pain points and a service journey. The output is a resident-led procurement processes.",
   },
   {
     category: "Civic Tech",
@@ -39,7 +39,7 @@ const civicWorks: CivicWork[] = [
     year: "2016",
     title: "If the City Were Ours: A platform for writing policy together",
     description:
-      "Se a Cidade Fosse Nossa (“If the City Were Ours”) was a grassroots movement that wrote a mayoral platform together with residents. As the only web designer, I designed the platform that connected its in-person meetings with online participation. It launched lean, with an events calendar, contact capture and endorsements, so activities could start while engineering built the forum. The forum then grouped discussions by neighborhood and theme, with yes/no voting on proposals and personal profiles. The candidate whose platform it fed, Marcelo Freixo, reached the runoff and won 1,163,662 votes (40.6%).",
+      "If the City Were Ours was a grassroots movement that aimed to co-create a mayoral platform with Rio de Janeiro residents. I designed the digital platform that connected its in-person meetings with online participation through a forum clustered by themes and neighborhood. The candidate whose platform it fed, Marcelo Freixo, reached the runoff and won 1,163,662 votes (40.6%).",
   },
   {
     category: "Civic Tech",
@@ -47,7 +47,7 @@ const civicWorks: CivicWork[] = [
     year: "2018",
     title: "Sâmia 5000: A campaign people could build themselves",
     description:
-      "Sâmia Bomfim’s campaign for Brazil’s Congress treated the election as civic participation, not marketing. As lead designer, I designed the website, the brand and the printed materials, and mentored junior designers. The online platform allowed constituents to volunteer, donate, and open community headquarters. Supporters could download materials and adapt them to their own neighborhoods, so the campaign’s public presence was built by many people instead of one team. She was elected with almost 250k votes.",
+      "Sâmia Bomfim’s campaign for Brazil’s Congress treated the election as a matter of civic participation. As lead designer, I was responsible for the website, the brand and the printed materials, and mentored junior designers. The online platform allowed constituents to volunteer, donate, and open community headquarters. Sâmia was elected with almost 250k votes.",
   },
 ]
 
