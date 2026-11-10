@@ -381,17 +381,8 @@
   border-top: 0;
 }
 
-.resumeSection:nth-of-type(1) .entry:nth-of-type(1),
-.resumeSection:nth-of-type(1) .entry:nth-of-type(3),
-.resumeSection:nth-of-type(2) .entry:last-of-type,
-.resumeSection:nth-of-type(3) .entry:nth-of-type(2),
-.resumeSection:nth-of-type(4) .entry:last-of-type {
+.resumeSection .entry:last-child {
   border-bottom: 0;
-}
-
-.resumeSection:nth-of-type(1) .entry:nth-of-type(2) {
-  border-top: 1px solid var(--about-rule);
-  border-bottom: 1px solid var(--about-rule);
 }
 
 .period {
