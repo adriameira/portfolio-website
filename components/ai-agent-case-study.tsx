@@ -29,7 +29,7 @@ const insights = [
 
 const benchmarkFindings = [
   {
-    title: "Create a sense of urgency",
+    title: "A sense of urgency",
     copy: "A score or a meter tells users at a glance how much is at stake, which makes acting now feel worth it.",
   },
 ]
