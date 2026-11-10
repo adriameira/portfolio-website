@@ -344,7 +344,7 @@
   flex-direction: column;
   align-items: center;
   padding: clamp(4rem, 7vw, 6rem) var(--portfolio-gutter);
-  background: linear-gradient(102deg, #8d0de4 0%, #8d0de4 38%, #8d0de4 58%, #8d0de4 100%);
+  background: linear-gradient(135deg, #8d0de4 0%, #a526e8 45%, #6f13c7 100%);
   color: var(--portfolio-background);
   text-align: center;
 }
