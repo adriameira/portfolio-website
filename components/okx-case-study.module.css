@@ -1,0 +1,605 @@
+.heroEyebrow {
+  margin: 0 0 0.5rem;
+  color: var(--portfolio-accent);
+  font-family: var(--portfolio-label-font);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.heroVideo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.requirementColumns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+  margin-top: 0;
+}
+
+.requirementColumn {
+  position: relative;
+  min-width: 0;
+  padding: 1.5rem;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--portfolio-ink);
+}
+
+.requirementColumn:nth-child(odd)::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--portfolio-border);
+  content: "";
+}
+
+.requirementColumn:nth-child(-n + 2)::before {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  background: var(--portfolio-border);
+  content: "";
+}
+
+.requirementIcon {
+  display: grid;
+  width: 2.75rem;
+  height: 2.75rem;
+  place-items: center;
+  margin-bottom: 1.25rem;
+  border: 0;
+  border-radius: 999px;
+  background: var(--button-primary);
+  color: var(--foreground);
+}
+
+.centeredHeading {
+  text-align: center;
+}
+
+.sectionLabel {
+  width: min(100%, var(--case-study-visual-width));
+  margin: 0 auto;
+  color: var(--button-primary);
+  font-family: var(--portfolio-label-font);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.requirementColumn h4 {
+  margin: 0 0 0.65rem;
+  color: var(--portfolio-ink);
+  font-size: 1rem;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+}
+
+.requirementColumn p {
+  margin: 0;
+  color: var(--portfolio-stone);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.cardEyebrow {
+  margin: 0;
+  color: var(--portfolio-accent);
+  font-family: var(--portfolio-label-font);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.briefCard > p:last-child {
+  margin-top: 0.75rem;
+  color: var(--portfolio-ink);
+  font-size: clamp(1.05rem, 1.5vw, 1.35rem);
+  line-height: 1.55;
+}
+
+.briefCardEmphasis {
+  border-color: transparent;
+  background: var(--accent-foreground);
+  color: var(--background);
+}
+
+.briefCardEmphasis .cardEyebrow,
+.briefCardEmphasis > p:last-child {
+  color: var(--background);
+}
+
+.needsBlock {
+  width: min(100%, var(--case-study-copy-width));
+  margin: 2rem auto 0;
+  text-align: left;
+}
+
+.needsBlock h3,
+.stakeholderHeading {
+  margin: 0 0 0.75rem;
+  color: var(--portfolio-ink);
+  font-size: clamp(1.15rem, 1.7vw, 1.5rem);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+}
+
+.needsList {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+  padding-left: 1.25rem;
+  color: var(--portfolio-stone);
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.needsList li::marker {
+  color: var(--portfolio-accent);
+}
+
+.stakeholderHeading {
+  width: min(100%, var(--case-study-visual-width));
+  margin: 2.5rem auto 0;
+  text-align: left;
+}
+
+.stakeholderGrid {
+  display: grid;
+  width: min(100%, var(--case-study-visual-width));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 1.25rem auto 0;
+}
+
+.stakeholderGridFirst {
+  padding-top: 0;
+}
+
+.argumentIntro {
+  padding-top: 1.5rem;
+  padding-bottom: 0;
+}
+
+.contentCard {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1.5rem;
+  border: 0;
+  border-radius: 1.5rem;
+  background: #ffffff;
+  color: #000000;
+  text-align: left;
+}
+
+.cardHeader {
+  display: flex;
+  min-width: 0;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.contentCard h3 {
+  min-width: 0;
+  flex: 1 1 auto;
+  margin: 0;
+  color: #000000;
+  font-size: clamp(1.05rem, 1.4vw, 1.25rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.3;
+  text-align: left;
+}
+
+.teamChip {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 0.35rem 0.65rem;
+  border: 0;
+  border-radius: 999px;
+  background: #8d0de4;
+  color: #ffffff;
+  font-size: 0.7rem;
+  line-height: 1.3;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.contentCard > p:last-child {
+  width: auto;
+  max-width: none;
+  margin: 0;
+  color: #000000;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  text-align: left;
+}
+
+.localizationPanel {
+  --localization-title: #ffffff;
+  --localization-copy: #d0d0d0;
+  --localization-icon-background: var(--button-primary);
+
+  width: 100%;
+  margin: 1.5rem 0 0;
+  padding: clamp(1.5rem, 3.5vw, 2.5rem);
+  background: var(--background);
+  text-align: left;
+}
+
+.localizationRows {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2.5rem 1.5rem;
+}
+
+.localizationCard {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--localization-title);
+  text-align: left;
+}
+
+.localizationIcon {
+  display: grid;
+  width: 32px;
+  height: 32px;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--localization-icon-background);
+  color: var(--foreground);
+}
+
+.localizationIcon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.localizationArguments .localizationIcon {
+  width: 38.4px;
+  height: 38.4px;
+}
+
+.localizationArguments .localizationIcon svg {
+  width: 28.8px;
+  height: 28.8px;
+}
+
+.localizationTeamLabel {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  padding: 0.35rem 0.6rem;
+  border-radius: 999px;
+  background: var(--button-primary);
+  color: var(--button-primary-foreground);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.localizationContent h3 {
+  margin: 0 0 4px;
+  color: var(--localization-title);
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.3;
+  text-wrap: balance;
+}
+
+.localizationContent p,
+.localizationIntro {
+  margin: 0;
+  color: var(--localization-copy);
+  font-size: clamp(1rem, 1.25vw, 1.125rem);
+  line-height: 1.55;
+  text-align: left;
+}
+
+.localizationIntro {
+  margin: 2rem 0;
+  padding: 0;
+  color: var(--accent-foreground);
+  text-align: center;
+}
+
+.decisionCallout {
+  width: min(100%, var(--case-study-visual-width));
+  margin: 2rem auto 0;
+  padding: clamp(1.25rem, 2.5vw, 2rem);
+  border-radius: 20px;
+  background: var(--accent-foreground);
+  color: var(--background);
+  text-align: left;
+}
+
+.decisionCallout .cardEyebrow {
+  color: var(--background);
+}
+
+.decisionCallout p:last-child {
+  width: auto;
+  max-width: none;
+  margin: 0.6rem 0 0;
+  color: var(--background);
+  font-size: clamp(1rem, 1.3vw, 1.2rem);
+  line-height: 1.6;
+}
+
+.metricsGrid {
+  display: flex;
+  flex-direction: row;
+  gap: 43px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.metricCard {
+  display: flex;
+  min-width: 0;
+  min-height: 9rem;
+  flex: 1 1 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--portfolio-surface);
+}
+
+.metricsGrid .metricValue {
+  display: block;
+  margin: 0;
+  color: var(--portfolio-ink);
+  font-size: clamp(2rem, 5vw, 3.75rem);
+  font-weight: 700;
+  letter-spacing: -0.07em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.metricsGrid .metricLabel {
+  display: block;
+  margin: 0.75rem 0 0;
+  color: var(--portfolio-stone);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.metricsCaption {
+  margin-top: 0.75rem !important;
+  color: var(--portfolio-stone) !important;
+  font-family: var(--portfolio-label-font);
+  font-size: 0.75rem !important;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.deckFigure {
+  background: var(--portfolio-surface);
+  }
+
+.deckFigure .mediaCaption {
+  padding-top: 0;
+}
+
+.transparentDeckFigure {
+  background: transparent;
+}
+
+.deckImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-top: 30px;
+  object-fit: contain;
+}
+
+.handoffWireflowViewport {
+  height: auto;
+  overflow: visible;
+  overscroll-behavior-y: contain;
+  scrollbar-color: var(--portfolio-stone) transparent;
+  scrollbar-width: thin;
+}
+
+.handoffWireflowImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 0 !important;
+}
+
+.collaborationImageGrid {
+  display: grid;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 0;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 24px;
+}
+
+.collaborationIntro {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.collaborationImageFrame {
+  position: relative;
+  min-width: 0;
+  margin: 0;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border: 0;
+  border-radius: 24px;
+}
+
+.collaborationImage {
+  border-radius: 24px;
+  object-fit: cover;
+}
+
+@media (min-width: 701px) {
+  .collaborationImageGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.amountInputWireframes {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-bottom: 16px !important;
+}
+
+.collaborationImage {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.collaborationCaption {
+  padding-top: 0;
+}
+
+.collaborationWorkshopCaption {
+  padding-top: 16px !important;
+  padding-bottom: 0 !important;
+}
+
+.journeyFrame {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  background: transparent;
+}
+
+.journeyFrame .mediaCaption {
+  padding-top: 8px;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.journeyDiagram {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  padding-bottom: 0 !important;
+  background: transparent;
+}
+
+@media (max-width: 900px) {
+  .requirementColumns {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .localizationPanel {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .localizationRows {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2rem;
+  }
+
+  .localizationCard {
+    gap: 1rem;
+  }
+
+  .localizationIcon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+
+.localizationIcon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.localizationArguments .localizationIcon {
+  width: 38.4px;
+  height: 38.4px;
+}
+
+.localizationArguments .localizationIcon svg {
+  width: 28.8px;
+  height: 28.8px;
+}
+
+.localizationContent h3 {
+    font-size: 20px;
+  }
+
+  .localizationContent p,
+  .localizationIntro {
+    font-size: 1rem;
+  }
+
+  .requirementColumns {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .requirementColumn:nth-child(odd)::after {
+    display: none;
+  }
+
+  .requirementColumn:nth-child(-n + 2)::before {
+    display: none;
+  }
+
+  .requirementColumn:not(:last-child)::before {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    height: 1px;
+    background: var(--portfolio-border);
+    content: "";
+  }
+
+  .challengeGrid,
+  .briefComparison,
+  .stakeholderGrid,
+  .metricsGrid,
+  .successGrid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .metricCard {
+    min-height: 7rem;
+  }
+
+}
