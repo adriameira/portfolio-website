@@ -30,8 +30,8 @@ export const metadata: Metadata = {
         ? `https://${process.env.VERCEL_URL}`
         : 'http://localhost:3000',
   ),
-  title: 'Adi Meira — Product Designer',
-  description: 'Senior product designer with 12 years of experience across early-stage startups, global companies and political campaigns. Studied digital government at Harvard GSD.',
+  title: 'Adi Meira – Senior Product Designer',
+  description: 'Adi is a Harvard University alumn and a senior product designer with 7+ years of work experience',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -51,6 +51,8 @@ export const metadata: Metadata = {
     apple: '/apple-icon.png',
   },
   openGraph: {
+    title: 'Adi Meira – Senior Product Designer',
+    description: 'Adi is a Harvard University alumn and a senior product designer with 7+ years of work experience',
     images: [
       {
         url: '/og-image.png',
@@ -62,6 +64,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
+    title: 'Adi Meira – Senior Product Designer',
+    description: 'Adi is a Harvard University alumn and a senior product designer with 7+ years of work experience',
     images: ['/og-image.png'],
   },
 }
