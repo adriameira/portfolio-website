@@ -23,6 +23,13 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.VERCEL_PROJECT_PRODUCTION_URL
+      ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+      : process.env.VERCEL_URL
+        ? `https://${process.env.VERCEL_URL}`
+        : 'http://localhost:3000',
+  ),
   title: 'Adi Meira — Product Designer',
   description: 'Senior product designer with 12 years of experience across early-stage startups, global companies and political campaigns. Studied digital government at Harvard GSD.',
   generator: 'v0.app',
@@ -42,6 +49,20 @@ export const metadata: Metadata = {
       },
     ],
     apple: '/apple-icon.png',
+  },
+  openGraph: {
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Adi Meira, a Harvard alum and senior product designer with 7+ years of experience',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og-image.png'],
   },
 }
 

@@ -83,6 +83,7 @@ export default function Home() {
 
       <main id="top" className="portfolio-main">
         <section className="portfolio-hero" aria-labelledby="portfolio-hero-title">
+          <span className="portfolio-hero-dot" aria-hidden="true" />
           <div className="portfolio-hero-main">
             <h1 className="portfolio-hero-title" id="portfolio-hero-title" data-word-reveal>
               <span className="portfolio-hero-title-visual" aria-hidden="true">

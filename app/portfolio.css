@@ -253,6 +253,36 @@
   pointer-events: none;
 }
 
+.portfolio-hero-dot {
+  position: absolute;
+  z-index: 2;
+  top: 24%;
+  right: 19%;
+  width: 0.75rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--portfolio-accent);
+  box-shadow: 0 0 1.5rem var(--portfolio-accent);
+  animation: portfolio-hero-dot-drift 7s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+
+@keyframes portfolio-hero-dot-drift {
+  from {
+    transform: translate3d(0, -0.5rem, 0);
+  }
+
+  to {
+    transform: translate3d(-3.5rem, 1.75rem, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .portfolio-hero-dot {
+    animation: none;
+  }
+}
+
 .portfolio-hero-main {
   position: relative;
   z-index: 1;
