@@ -13,13 +13,6 @@ type Metric = {
 
 const metrics: Metric[] = [
   {
-    value: 152,
-    prefix: "+",
-    suffix: "",
-    label: "Charts exported",
-    accessibleLabel: "charts exported",
-  },
-  {
     value: 63,
     prefix: "+",
     suffix: "%",

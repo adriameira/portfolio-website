@@ -147,9 +147,6 @@ export function RacialJusticeCaseStudy() {
             <p>
               The team had built a solid pipeline. OCR extracted text from scanned deeds, a model flagged restrictive language, and researchers verified each flag, logging exclusion type, date, location and grantor.
             </p>
-            <p>
-              All the useful data was there. But the product treated every deed as a task to close, not as evidence. The platform could say how many deeds had come in, been flagged or been reviewed. It couldn’t say what they showed.
-            </p>
             <figure className={styles.caseMedia}>
               <video
                 className={styles.originalVideo}
