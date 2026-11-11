@@ -111,7 +111,10 @@ export function RacialJusticeCaseStudy() {
                 I turned a deed reviewer into an analytics dashboard.
               </h2>
               <p className={styles.storyLead}>
-                It cut a five-hour charting task to seconds and lifted weekly active use by 63%. Getting there wasn&apos;t a straight line. The brief asked for one thing and the research pointed to another. The flashiest feature didn&apos;t make the first release, and the version I was most confident in came apart in testing.
+                MIT’s pipeline used AI to read scanned deeds and flag restrictive language, one deed at a time. While the reading worked, nobody could see what the flags added up to. When did exclusion happen, where, against whom, and who wrote it in?
+              </p>
+              <p className={styles.storyLead}>
+                After running research with users, I designed a dashboard where confirmed flags build themselves into patterns. It cut a five-hour charting task to seconds and lifted weekly active use 63%.
               </p>
               <details className={styles.contributions}>
                 <summary>
@@ -141,9 +144,12 @@ export function RacialJusticeCaseStudy() {
             <span>Context</span>
           </div>
           <div className={styles.sectionBody}>
-            <h2 id="context-title">A pipeline without a product</h2>
+            <h2 id="context-title">The AI’s job ended at the flag</h2>
             <p>
-              The team had built a solid pipeline: OCR extracts text from scanned deeds, a model flags restrictive language, and researchers verify each flag, logging exclusion type, date, location and grantor. The platform worked as a review queue that stored and confirmed records – however, it wouldn&apos;t tell  what the records added up to.
+              The team had built a solid pipeline. OCR extracted text from scanned deeds, a model flagged restrictive language, and researchers verified each flag, logging exclusion type, date, location and grantor.
+            </p>
+            <p>
+              All the useful data was there. But the product treated every deed as a task to close, not as evidence. The platform could say how many deeds had come in, been flagged or been reviewed. It couldn’t say what they showed.
             </p>
             <figure className={styles.caseMedia}>
               <video
@@ -186,9 +192,24 @@ export function RacialJusticeCaseStudy() {
               </article>
             ))}
         </div>
-        <p className={styles.insightCaption}>Some of insights that emerged from the research</p>
-      </div>
-    </section>
+            <p className={styles.insightCaption}>Some of insights that emerged from the research</p>
+          </div>
+        </section>
+
+        <section className={styles.caseSection} data-appear aria-labelledby="system-boundary-title">
+          <div className={styles.sectionIndex}>
+            <span>System boundary</span>
+          </div>
+          <div className={styles.sectionBody}>
+            <h2 id="system-boundary-title">Deciding what the system should do</h2>
+            <p>
+              The AI already did steps 1 and 2 well. My work was deciding what should happen after a person verified a flag, and where the system should stop.
+            </p>
+            <p>
+              The machine reads, people verify, the system aggregates, historians interpret. I drew that boundary on purpose. With racial justice data, a system that draws historical conclusions on its own would be a credibility and ethics risk. The dashboard surfaces patterns and leaves the meaning to the researchers who publish it.
+            </p>
+          </div>
+        </section>
 
         <section className={styles.caseSection} data-appear aria-labelledby="prioritization-title">
           <div className={styles.sectionIndex}>
@@ -268,7 +289,7 @@ export function RacialJusticeCaseStudy() {
             <span>Result</span>
           </div>
           <div className={styles.sectionBody}>
-            <h2 id="result-title">Status, patterns and timelines in one interface</h2>
+            <h2 id="result-title">From flagged deeds to findings</h2>
             <p>
               It started as an admin tool for reviewing one deed at a time. It ended as a place to search reviewed deeds and see patterns by grantor and exclusion type, across counties and date ranges.
             </p>
