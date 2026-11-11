@@ -1,0 +1,41 @@
+.nextCaseStudy {
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  padding: 2rem var(--portfolio-gutter, 1.5rem) clamp(3rem, 6vw, 4.5rem);
+  text-align: center;
+}
+
+.label {
+  margin: 0;
+  color: var(--portfolio-accent, var(--primary));
+  font-family: var(--portfolio-label-font, var(--font-sans));
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.link {
+  max-width: 60rem;
+  color: var(--portfolio-ink, var(--foreground));
+  font-family: var(--font-bricolage-grotesque), Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  line-height: 1.15;
+  text-decoration: none;
+  text-wrap: balance;
+}
+
+.link:hover {
+  color: var(--portfolio-accent, var(--primary));
+}
+
+.link:focus-visible {
+  outline: 2px solid var(--portfolio-accent, var(--primary));
+  outline-offset: 6px;
+}

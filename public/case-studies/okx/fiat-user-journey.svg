@@ -1,0 +1,353 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3300 1640" width="3300" height="1640" role="img" aria-label="OKX and Okcoin overall fiat user journey, with the deposit journey highlighted">
+<style>@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;display=swap');</style>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7a7a7a"/></marker>
+<marker id="ad" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#ffffff"/></marker>
+</defs>
+
+
+<g font-family="Inter, sans-serif"><rect x="40" y="84" width="26" height="16" rx="4" fill="#ffffff"/><text x="76" y="97" font-size="12" fill="#ffffff">Deposit journey (my scope)</text>
+<rect x="300" y="84" width="26" height="16" rx="4" fill="none" stroke="#ffffff" stroke-width="1.2"/><text x="336" y="97" font-size="12" fill="#ffffff">Rest of the fiat journey</text></g>
+<path d="M165.0 760 H190 V520 H209.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M165.0 760 H190 V1290 H209.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M330.0 520 H374.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M450 500.0 V371.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M450 540.0 V639.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M450 680.0 V719.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M525.0 520 H624.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M510.0 660 H624.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M700 500.0 V471.0 H560 V443.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M700 500.0 V470.0 H710 V441.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M700 500.0 V470.0 H860 V441.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M700 500.0 V470.0 H1010 V441.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M700 500.0 V472.0 H1170 V445.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1010 400.0 V341.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1080.0 320 H1284.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1010 300.0 V270.0 H850 V241.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1010 300.0 V271.0 H1010 V243.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1010 300.0 V270.0 H1170 V241.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1360 298.0 V243.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M700 640.0 V630.0 H620 V621.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M700 640.0 V631.0 H790 V623.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M700 680.0 V717.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M775.0 520 H1414.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M775.0 660 H1470 V541.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1470 500.0 V471.0 H1380 V443.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1470 500.0 V471.0 H1540 V443.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1470 500.0 V471.0 H1700 V443.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1700 398.0 V323.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<text x="1708" y="364.0" font-size="11" fill="#a8a8a8" text-anchor="start" font-family="Inter, sans-serif">Display upgrade prompt per KYC level</text>
+<path d="M1525.0 520 H1559.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1720.0 520 H1789.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1880 498.0 V463.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1880 542.0 V577.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1970.0 520 H2040 V180 H2069.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1970.0 520 H2040 V400 H2069.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1970.0 520 H2040 V520 H2069.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1970.0 520 H2040 V600 H2069.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1970.0 520 H2040 V725 H2069.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1970.0 520 H2040 V900 H2069.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2140 160.0 V96.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2190.0 70 H2254.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2425.0 70 H2459.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2620.0 70 H2659.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2820 70 H3020 V239" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2210.0 180 H2240 V150 H2259.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2210.0 180 H2240 V210 H2279.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2210.0 180 H2240 V260 H2279.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2210.0 180 H2240 V310 H2279.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2420.0 150 H2464.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2635.0 150 H2740 V239.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2825.0 260 H2864.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M3035.0 260 H3084.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2740 280.0 V295.0 H2640 V309.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2740 280.0 V295.0 H2780 V309.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2740 280.0 V295.0 H2920 V309.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2950 240.0 V191.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M3010.0 170 H3079.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2210.0 520 H2274.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2210.0 600 H2340 V541.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2340 500.0 V485.0 H2270 V471.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2340 500.0 V485.0 H2420 V471.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2420 430.0 V401.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2405.0 520 H2554.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2725.0 520 H2779.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2880.0 520 H2924.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2830 500.0 V485.0 H3010 V471.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M3095.0 520 H3134.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M3010 430.0 V415.0 H2930 V401.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M3010 430.0 V415.0 H3090 V401.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M3090 360.0 V331.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2210.0 725 H2240 V680 H2279.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2210.0 725 H2240 V775 H2279.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2440.0 680 H2489.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2670.0 680 H2719.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2880.0 680 H2905 V650 H2939.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2880.0 680 H2905 V710 H2939.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2440.0 775 H2489.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2670.0 775 H2690 V755 H2714.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2670.0 775 H2690 V805 H2714.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2210.0 900 H2344.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2140 920.0 V975 H2189.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2290.0 975 H2430 V921.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2515.0 900 H2535 V870 H2554.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M2515.0 900 H2535 V930 H2554.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M330.0 1290 H360 V1190 H389.0" fill="none" stroke="#ffffff" stroke-width="1.6" marker-end="url(#ad)"/>
+<path d="M330.0 1290 H360 V1500 H389.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M510.0 1190 H554.0" fill="none" stroke="#ffffff" stroke-width="1.6" marker-end="url(#ad)"/>
+<path d="M685.0 1190 H724.0" fill="none" stroke="#ffffff" stroke-width="1.6" marker-end="url(#ad)"/>
+<path d="M875.0 1190 H904.0" fill="none" stroke="#ffffff" stroke-width="1.6" marker-end="url(#ad)"/>
+<path d="M1075.0 1190 H1104.0" fill="none" stroke="#ffffff" stroke-width="1.6" marker-end="url(#ad)"/>
+<path d="M1160 1160.0 V1100 H1269.0" fill="none" stroke="#ffffff" stroke-width="1.6" marker-end="url(#ad)"/>
+<text x="1168" y="1134.0" font-size="11" fill="#a8a8a8" text-anchor="start" font-family="Inter, sans-serif">Pull (ACH, cards)</text>
+<path d="M1160 1220.0 V1280 H1254.0" fill="none" stroke="#ffffff" stroke-width="1.6" marker-end="url(#ad)"/>
+<text x="1168" y="1254.0" font-size="11" fill="#a8a8a8" text-anchor="start" font-family="Inter, sans-serif">Push (wire transfer)</text>
+<path d="M1330 1070.0 V1055.5 H1280 V1042.0" fill="none" stroke="#ffffff" stroke-width="1.6" marker-end="url(#ad)"/>
+<path d="M1330 1070.0 V1055.5 H1400 V1042.0" fill="none" stroke="#ffffff" stroke-width="1.6" marker-end="url(#ad)"/>
+<path d="M1390.0 1100 H1439.0" fill="none" stroke="#ffffff" stroke-width="1.6" marker-end="url(#ad)"/>
+<text x="1415.0" y="1092" font-size="11" fill="#a8a8a8" text-anchor="middle" font-family="Inter, sans-serif">No</text>
+<path d="M1580.0 1100 H1614.0" fill="none" stroke="#ffffff" stroke-width="1.6" marker-end="url(#ad)"/>
+<path d="M1745.0 1100 H1765 V1060 H1784.0" fill="none" stroke="#ffffff" stroke-width="1.6" marker-end="url(#ad)"/>
+<path d="M1745.0 1100 H1765 V1140 H1784.0" fill="none" stroke="#ffffff" stroke-width="1.6" marker-end="url(#ad)"/>
+<path d="M1915.0 1060 H1927.5 V1100 H1939.0" fill="none" stroke="#ffffff" stroke-width="1.6" marker-end="url(#ad)"/>
+<path d="M1915.0 1140 H1927.5 V1100 H1939.0" fill="none" stroke="#ffffff" stroke-width="1.6" marker-end="url(#ad)"/>
+<path d="M1405.0 1280 H1430 V1242 H1449.0" fill="none" stroke="#ffffff" stroke-width="1.6" marker-end="url(#ad)"/>
+<path d="M1405.0 1280 H1430 V1318 H1449.0" fill="none" stroke="#ffffff" stroke-width="1.6" marker-end="url(#ad)"/>
+<path d="M1610.0 1242 H1644.0" fill="none" stroke="#ffffff" stroke-width="1.6" marker-end="url(#ad)"/>
+<path d="M1610.0 1318 H1639.0" fill="none" stroke="#ffffff" stroke-width="1.6" marker-end="url(#ad)"/>
+<path d="M510.0 1500 H554.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M685.0 1500 H724.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M875.0 1500 H904.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1075.0 1500 H1099.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1160 1470.0 V1428.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<text x="1168" y="1452.5" font-size="11" fill="#a8a8a8" text-anchor="start" font-family="Inter, sans-serif">Push (wire)</text>
+<path d="M1160 1530.0 V1573.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<text x="1168" y="1556.0" font-size="11" fill="#a8a8a8" text-anchor="start" font-family="Inter, sans-serif">Pull (ACH)</text>
+<path d="M1220.0 1500 H1439.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<text x="1330.0" y="1492" font-size="11" fill="#a8a8a8" text-anchor="middle" font-family="Inter, sans-serif">No</text>
+<path d="M1580.0 1500 H1614.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1745.0 1500 H1765 V1460 H1784.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1745.0 1500 H1765 V1540 H1784.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1915.0 1460 H1925.0 V1500 H1934.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<path d="M1915.0 1540 H1925.0 V1500 H1934.0" fill="none" stroke="#7a7a7a" stroke-width="1.2" marker-end="url(#a)"/>
+<rect x="35.0" y="740.0" width="130" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="100" y="764.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="100" dy="0.0">Fiat payments</tspan></text>
+<rect x="210.0" y="500.0" width="120" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="270" y="524.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="270" dy="0.0">Buy / Sell</tspan></text>
+<rect x="375.0" y="500.0" width="150" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="450" y="524.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="450" dy="0.0">Crypto selection</tspan></text>
+<rect x="375.0" y="330.0" width="150" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="450" y="354.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="450" dy="0.0">Fiat selection</tspan></text>
+<rect x="390.0" y="640.0" width="120" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="450" y="664.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="450" dy="0.0">Sell</tspan></text>
+<rect x="375.0" y="720.0" width="150" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="450" y="744.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="450" dy="0.0">Crypto selection</tspan></text>
+<rect x="625.0" y="500.0" width="150" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="700" y="524.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="700" dy="0.0">Keyboard page</tspan></text>
+<rect x="625.0" y="640.0" width="150" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="700" y="664.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="700" dy="0.0">Keyboard page</tspan></text>
+<rect x="495.0" y="398.0" width="130" height="44" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="560" y="416.9" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="560" dy="0.0">Fiat / crypto</tspan><tspan x="560" dy="15.0">switch</tspan></text>
+<rect x="645.0" y="400.0" width="130" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="710" y="424.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="710" dy="0.0">Pre-fill amount</tspan></text>
+<rect x="795.0" y="400.0" width="130" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="860" y="424.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="860" dy="0.0">Recurring buy</tspan></text>
+<rect x="950.0" y="400.0" width="120" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="1010" y="424.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1010" dy="0.0">Order icon</tspan></text>
+<ellipse cx="1170" cy="420" rx="70.0" ry="24.0" fill="none" stroke="#ffffff" stroke-width="1.2"/><path d="M1122.0 436.0 L1110.0 452.0 L1136.0 441.0" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="1170" y="417.0" font-size="11.5" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1170" dy="0.0">Minimum</tspan><tspan x="1170" dy="14.4">funding</tspan></text>
+<rect x="940.0" y="300.0" width="140" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="1010" y="324.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1010" dy="0.0">Order history</tspan></text>
+<rect x="785.0" y="200.0" width="130" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="850" y="224.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="850" dy="0.0">Card order</tspan></text>
+<rect x="945.0" y="198.0" width="130" height="44" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="1010" y="216.9" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1010" dy="0.0">Third-party</tspan><tspan x="1010" dy="15.0">order</tspan></text>
+<rect x="1105.0" y="200.0" width="130" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="1170" y="224.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1170" dy="0.0">P2P order</tspan></text>
+<rect x="1285.0" y="298.0" width="150" height="44" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="1360" y="316.9" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1360" dy="0.0">Recurring</tspan><tspan x="1360" dy="15.0">management</tspan></text>
+<rect x="1275.0" y="198.0" width="170" height="44" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="1360" y="216.9" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1360" dy="0.0">Pages on recurring</tspan><tspan x="1360" dy="15.0">management</tspan></text>
+<rect x="550.0" y="580.0" width="140" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="620" y="604.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="620" dy="0.0">Max sell amount</tspan></text>
+<rect x="715.0" y="578.0" width="150" height="44" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="790" y="596.9" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="790" dy="0.0">Transfer between</tspan><tspan x="790" dy="15.0">trading</tspan></text>
+<rect x="625.0" y="718.0" width="150" height="44" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="700" y="736.9" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="700" dy="0.0">Inactive fiat /</tspan><tspan x="700" dy="15.0">crypto switch</tspan></text>
+<rect x="1415.0" y="500.0" width="110" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="1470" y="524.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1470" dy="0.0">Next</tspan></text>
+<rect x="1310.0" y="398.0" width="140" height="44" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="1380" y="416.9" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1380" dy="0.0">Check KYC</tspan><tspan x="1380" dy="15.0">allowed or not</tspan></text>
+<rect x="1470.0" y="398.0" width="140" height="44" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="1540" y="416.9" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1540" dy="0.0">Account frozen</tspan><tspan x="1540" dy="15.0">or not</tspan></text>
+<rect x="1630.0" y="398.0" width="140" height="44" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="1700" y="416.9" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1700" dy="0.0">KYC limits</tspan><tspan x="1700" dy="15.0">check</tspan></text>
+<rect x="1625.0" y="278.0" width="150" height="44" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="1700" y="296.9" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1700" dy="0.0">Upgrade KYC</tspan><tspan x="1700" dy="15.0">level prompt</tspan></text>
+<rect x="1560.0" y="500.0" width="160" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="1640" y="524.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1640" dy="0.0">Payment channels</tspan></text>
+<rect x="1790.0" y="498.0" width="180" height="44" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="1880" y="516.9" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1880" dy="0.0">Onboarding widget</tspan><tspan x="1880" dy="15.0">phone / email / KYC</tspan></text>
+<rect x="1790.0" y="418.0" width="180" height="44" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="1880" y="436.9" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1880" dy="0.0">Entity handling,</tspan><tspan x="1880" dy="15.0">T&amp;C acceptance</tspan></text>
+<rect x="1790.0" y="578.0" width="180" height="44" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="1880" y="596.9" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1880" dy="0.0">Corporate account:</tspan><tspan x="1880" dy="15.0">KYB flow</tspan></text>
+<rect x="2070.0" y="160.0" width="140" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2140" y="184.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2140" dy="0.0">Third party</tspan></text>
+<polygon points="2090.0,70 2140,45.0 2190.0,70 2140,95.0" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2140" y="74.1" font-size="11.5" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2140" dy="0.0">Sell</tspan></text>
+<rect x="2255.0" y="50.0" width="170" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2340" y="74.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2340" dy="0.0">Order preview page</tspan></text>
+<rect x="2460.0" y="50.0" width="160" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2540" y="74.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2540" dy="0.0">Sell verification</tspan></text>
+<rect x="2660.0" y="50.0" width="160" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2740" y="74.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2740" dy="0.0">Sell instructions</tspan></text>
+<rect x="2260.0" y="130.0" width="160" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2340" y="154.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2340" dy="0.0">QP consent flow</tspan></text>
+<rect x="2465.0" y="128.0" width="170" height="44" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2550" y="146.9" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2550" dy="0.0">Redirect for</tspan><tspan x="2550" dy="15.0">vendor consent</tspan></text>
+<rect x="2280.0" y="190.0" width="120" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2340" y="214.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2340" dy="0.0">SEPA</tspan></text>
+<rect x="2280.0" y="240.0" width="120" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2340" y="264.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2340" dy="0.0">FPS</tspan></text>
+<rect x="2280.0" y="290.0" width="120" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2340" y="314.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2340" dy="0.0">Others</tspan></text>
+<rect x="2655.0" y="240.0" width="170" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2740" y="264.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2740" dy="0.0">Order preview page</tspan></text>
+<rect x="2580.0" y="310.0" width="120" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2640" y="334.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2640" dy="0.0">Disclaimer</tspan></text>
+<rect x="2720.0" y="310.0" width="120" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2780" y="334.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2780" dy="0.0">Price refresh</tspan></text>
+<rect x="2870.0" y="310.0" width="100" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2920" y="334.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2920" dy="0.0">T&amp;C</tspan></text>
+<rect x="2865.0" y="240.0" width="170" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2950" y="264.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2950" dy="0.0">Order success page</tspan></text>
+<rect x="2890.0" y="150.0" width="120" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2950" y="174.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2950" dy="0.0">Activation</tspan></text>
+<ellipse cx="3150" cy="170" rx="70.0" ry="24.0" fill="none" stroke="#ffffff" stroke-width="1.2"/><path d="M3102.0 186.0 L3090.0 202.0 L3116.0 191.0" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="3150" y="167.0" font-size="11.5" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="3150" dy="0.0">Fiat setup</tspan><tspan x="3150" dy="14.4">complete</tspan></text>
+<rect x="3085.0" y="240.0" width="130" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="3150" y="264.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="3150" dy="0.0">Order list</tspan></text>
+<rect x="2070.0" y="380.0" width="140" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2140" y="404.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2140" dy="0.0">P2P Express</tspan></text>
+<rect x="2070.0" y="500.0" width="140" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2140" y="524.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2140" dy="0.0">Card (Bridge)</tspan></text>
+<rect x="2070.0" y="580.0" width="140" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2140" y="604.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2140" dy="0.0">Card (IXOPay)</tspan></text>
+<rect x="2275.0" y="500.0" width="130" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2340" y="524.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2340" dy="0.0">Add card</tspan></text>
+<rect x="2205.0" y="430.0" width="130" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2270" y="454.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2270" dy="0.0">Risk rejection</tspan></text>
+<rect x="2345.0" y="430.0" width="150" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2420" y="454.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2420" dy="0.0">Card management</tspan></text>
+<rect x="2355.0" y="360.0" width="130" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2420" y="384.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2420" dy="0.0">Card expired</tspan></text>
+<rect x="2555.0" y="500.0" width="170" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2640" y="524.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2640" dy="0.0">Order preview page</tspan></text>
+<rect x="2780.0" y="500.0" width="100" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2830" y="524.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2830" dy="0.0">3DS</tspan></text>
+<rect x="2930.0" y="430.0" width="160" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="3010" y="454.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="3010" dy="0.0">Order failed page</tspan></text>
+<rect x="2865.0" y="360.0" width="130" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2930" y="384.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2930" dy="0.0">PSP rejection</tspan></text>
+<rect x="3025.0" y="360.0" width="130" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="3090" y="384.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="3090" dy="0.0">Risk rejection</tspan></text>
+<rect x="3010.0" y="290.0" width="160" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="3090" y="314.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="3090" dy="0.0">Different scenarios</tspan></text>
+<rect x="2925.0" y="500.0" width="170" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="3010" y="524.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="3010" dy="0.0">Order success page</tspan></text>
+<rect x="3135.0" y="500.0" width="130" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="3200" y="524.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="3200" dy="0.0">Order list</tspan></text>
+<rect x="2070.0" y="705.0" width="140" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2140" y="729.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2140" dy="0.0">ACH</tspan></text>
+<rect x="2280.0" y="658.0" width="160" height="44" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2360" y="676.9" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2360" dy="0.0">Add an ACH /</tspan><tspan x="2360" dy="15.0">bank account</tspan></text>
+<rect x="2490.0" y="658.0" width="180" height="44" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2580" y="676.9" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2580" dy="0.0">Select bank account</tspan><tspan x="2580" dy="15.0">(through Plaid)</tspan></text>
+<rect x="2720.0" y="658.0" width="160" height="44" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2800" y="676.9" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2800" dy="0.0">Authenticate in</tspan><tspan x="2800" dy="15.0">bank app</tspan></text>
+<rect x="2940.0" y="630.0" width="140" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="3010" y="654.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="3010" dy="0.0">Final success</tspan></text>
+<rect x="2940.0" y="690.0" width="140" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="3010" y="714.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="3010" dy="0.0">Final failure</tspan></text>
+<rect x="2280.0" y="753.0" width="160" height="44" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2360" y="771.9" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2360" dy="0.0">Select existing</tspan><tspan x="2360" dy="15.0">bank account</tspan></text>
+<rect x="2490.0" y="755.0" width="180" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2580" y="779.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2580" dy="0.0">Order summary page</tspan></text>
+<rect x="2715.0" y="735.0" width="170" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2800" y="759.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2800" dy="0.0">Order success page</tspan></text>
+<rect x="2715.0" y="785.0" width="170" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2800" y="809.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2800" dy="0.0">Order failed page</tspan></text>
+<rect x="2070.0" y="880.0" width="140" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2140" y="904.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2140" dy="0.0">Balance</tspan></text>
+<polygon points="2190.0,975 2240,950.0 2290.0,975 2240,1000.0" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2240" y="979.1" font-size="11.5" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2240" dy="0.0">Sell</tspan></text>
+<rect x="2345.0" y="880.0" width="170" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2430" y="904.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2430" dy="0.0">Order preview page</tspan></text>
+<rect x="2555.0" y="850.0" width="170" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2640" y="874.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2640" dy="0.0">Order failed page</tspan></text>
+<rect x="2555.0" y="910.0" width="170" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2640" y="934.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2640" dy="0.0">Order success page</tspan></text>
+<rect x="210.0" y="1268.0" width="120" height="44" rx="8" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="270" y="1286.9" font-size="12" font-weight="500" fill="#111111" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="270" dy="0.0">Deposit /</tspan><tspan x="270" dy="15.0">Withdraw</tspan></text>
+<rect x="390.0" y="1170.0" width="120" height="40" rx="8" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="450" y="1194.3" font-size="12" font-weight="500" fill="#111111" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="450" dy="0.0">Deposit</tspan></text>
+<rect x="555.0" y="1170.0" width="130" height="40" rx="8" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="620" y="1194.3" font-size="12" font-weight="500" fill="#111111" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="620" dy="0.0">Fiat selection</tspan></text>
+<rect x="725.0" y="1168.0" width="150" height="44" rx="8" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="800" y="1186.9" font-size="12" font-weight="500" fill="#111111" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="800" dy="0.0">Deposit payment</tspan><tspan x="800" dy="15.0">channels</tspan></text>
+<rect x="905.0" y="1168.0" width="170" height="44" rx="8" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="990" y="1186.9" font-size="12" font-weight="500" fill="#111111" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="990" dy="0.0">Onboarding widget</tspan><tspan x="990" dy="15.0">KYC / phone / email</tspan></text>
+<polygon points="1105.0,1190 1160,1160.0 1215.0,1190 1160,1220.0" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1160" y="1187.0" font-size="11.5" font-weight="500" fill="#111111" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1160" dy="0.0">Push or</tspan><tspan x="1160" dy="14.4">pull?</tspan></text>
+<polygon points="1270.0,1100 1330,1070.0 1390.0,1100 1330,1130.0" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1330" y="1097.0" font-size="11.5" font-weight="500" fill="#111111" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1330" dy="0.0">New</tspan><tspan x="1330" dy="14.4">account?</tspan></text>
+<polygon points="1237.0,1009.0 1335.0,1009.0 1323.0,1041.0 1225.0,1041.0" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1280" y="1029.1" font-size="11.5" font-weight="500" fill="#111111" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1280" dy="0.0">Add card</tspan></text>
+<polygon points="1357.0,1009.0 1455.0,1009.0 1443.0,1041.0 1345.0,1041.0" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1400" y="1029.1" font-size="11.5" font-weight="500" fill="#111111" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1400" dy="0.0">Add ACH</tspan></text>
+<rect x="1440.0" y="1078.0" width="140" height="44" rx="8" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1510" y="1096.9" font-size="12" font-weight="500" fill="#111111" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1510" dy="0.0">Amount input</tspan><tspan x="1510" dy="15.0">(keyboard)</tspan></text>
+<rect x="1615.0" y="1080.0" width="130" height="40" rx="8" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1680" y="1104.3" font-size="12" font-weight="500" fill="#111111" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1680" dy="0.0">Order preview</tspan></text>
+<rect x="1785.0" y="1040.0" width="130" height="40" rx="8" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1850" y="1064.3" font-size="12" font-weight="500" fill="#111111" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1850" dy="0.0">Order failed</tspan></text>
+<rect x="1785.0" y="1120.0" width="130" height="40" rx="8" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1850" y="1144.3" font-size="12" font-weight="500" fill="#111111" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1850" dy="0.0">Order success</tspan></text>
+<rect x="1940.0" y="1080.0" width="140" height="40" rx="8" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="2010" y="1104.3" font-size="12" font-weight="500" fill="#111111" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2010" dy="0.0">Deposit history</tspan></text>
+<polygon points="1255.0,1280 1330,1248.0 1405.0,1280 1330,1312.0" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1330" y="1277.0" font-size="11.5" font-weight="500" fill="#111111" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1330" dy="0.0">Omnibus or</tspan><tspan x="1330" dy="14.4">virtual account?</tspan></text>
+<rect x="1450.0" y="1220.0" width="160" height="44" rx="8" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1530" y="1238.9" font-size="12" font-weight="500" fill="#111111" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1530" dy="0.0">Education for</tspan><tspan x="1530" dy="15.0">omnibus account</tspan></text>
+<rect x="1450.0" y="1296.0" width="160" height="44" rx="8" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1530" y="1314.9" font-size="12" font-weight="500" fill="#111111" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1530" dy="0.0">Education for</tspan><tspan x="1530" dy="15.0">virtual account</tspan></text>
+<rect x="1645.0" y="1220.0" width="170" height="44" rx="8" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1730" y="1238.9" font-size="12" font-weight="500" fill="#111111" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1730" dy="0.0">Wire instructions</tspan><tspan x="1730" dy="15.0">with reference</tspan></text>
+<rect x="1640.0" y="1296.0" width="180" height="44" rx="8" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1730" y="1314.9" font-size="12" font-weight="500" fill="#111111" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1730" dy="0.0">Wire instructions for</tspan><tspan x="1730" dy="15.0">the virtual account</tspan></text>
+<rect x="390.0" y="1480.0" width="120" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="450" y="1504.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="450" dy="0.0">Withdraw</tspan></text>
+<rect x="555.0" y="1480.0" width="130" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="620" y="1504.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="620" dy="0.0">Fiat selection</tspan></text>
+<rect x="725.0" y="1478.0" width="150" height="44" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="800" y="1496.9" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="800" dy="0.0">Withdraw payment</tspan><tspan x="800" dy="15.0">channels</tspan></text>
+<rect x="905.0" y="1478.0" width="170" height="44" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="990" y="1496.9" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="990" dy="0.0">Onboarding widget</tspan><tspan x="990" dy="15.0">KYC / phone / email</tspan></text>
+<polygon points="1100.0,1500 1160,1470.0 1220.0,1500 1160,1530.0" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="1160" y="1497.0" font-size="11.5" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1160" dy="0.0">New</tspan><tspan x="1160" dy="14.4">account?</tspan></text>
+<rect x="1075.0" y="1383.0" width="170" height="44" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="1160" y="1401.9" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1160" dy="0.0">Add withdrawal</tspan><tspan x="1160" dy="15.0">account education</tspan></text>
+<polygon points="1117.0,1574.0 1215.0,1574.0 1203.0,1606.0 1105.0,1606.0" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="1160" y="1594.1" font-size="11.5" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1160" dy="0.0">Add ACH</tspan></text>
+<rect x="1440.0" y="1478.0" width="140" height="44" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="1510" y="1496.9" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1510" dy="0.0">Amount input</tspan><tspan x="1510" dy="15.0">(keyboard)</tspan></text>
+<rect x="1615.0" y="1480.0" width="130" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="1680" y="1504.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1680" dy="0.0">Order preview</tspan></text>
+<rect x="1785.0" y="1440.0" width="130" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="1850" y="1464.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1850" dy="0.0">Order failed</tspan></text>
+<rect x="1785.0" y="1520.0" width="130" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="1850" y="1544.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="1850" dy="0.0">Order success</tspan></text>
+<rect x="1935.0" y="1480.0" width="150" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+<text x="2010" y="1504.3" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" font-family="Inter, sans-serif"><tspan x="2010" dy="0.0">Withdraw history</tspan></text>
+</svg>
