@@ -1,7 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Mail } from "lucide-react"
-import { DecisionMakingContent } from "./decision-making-tabs"
 import { MetricsExplorer } from "./metrics-explorer"
 import { PrototypeSlider } from "./prototype-slider"
 import { ResultMetrics } from "./result-metrics"
@@ -208,15 +207,6 @@ export function RacialJusticeCaseStudy() {
             <p>
               The machine reads, people verify, the system aggregates, historians interpret. I drew that boundary on purpose. With racial justice data, a system that draws historical conclusions on its own would be a credibility and ethics risk. The dashboard surfaces patterns and leaves the meaning to the researchers who publish it.
             </p>
-          </div>
-        </section>
-
-        <section className={styles.caseSection} data-appear aria-labelledby="prioritization-title">
-          <div className={styles.sectionIndex}>
-            <span>Decision-making</span>
-          </div>
-          <div className={styles.sectionBody}>
-            <DecisionMakingContent />
           </div>
         </section>
 
