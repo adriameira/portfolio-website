@@ -216,7 +216,7 @@ export function AboutPage() {
             <div className={styles.introTitleColumn}>
               <h1 id="about-title">Oi, I&apos;m Adi! :)</h1>
               <nav className={styles.introLinks} aria-label="Contact Adi">
-                <a href="mailto:meira.adria@gmail.com">
+                <a href="mailto:adria_meira@gsd.harvard.edu">
                   <Mail aria-hidden="true" size={15} strokeWidth={2} />
                   E-MAIL
                 </a>
@@ -293,7 +293,7 @@ export function AboutPage() {
       <footer className={`contact-section ${styles.footer}`} data-appear id="contact">
         <h2>Ready to collaborate?</h2>
         <nav aria-label="Email and social links">
-          <a href="mailto:meira.adria@gmail.com">Email</a>
+          <a href="mailto:adria_meira@gsd.harvard.edu">Email</a>
           <a
             href="https://www.linkedin.com/in/adriameira/"
             target="_blank"
