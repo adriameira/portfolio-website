@@ -248,12 +248,7 @@ export function AboutPage() {
                 />
               </figure>
               <blockquote className={styles.quote}>
-                <p>
-                  <strong>12 years of work experience</strong>
-                  <br />
-                  <strong>05</strong> in graphic and web design +<br />
-  <strong>07</strong> in digital product design
-                </p>
+                <p>In loving memory of Ted, the cat.</p>
               </blockquote>
             </div>
             <figure className={`${styles.photo} ${styles.adiPhoto}`}>
