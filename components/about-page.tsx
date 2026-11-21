@@ -279,6 +279,27 @@ export function AboutPage() {
               </figure>
             </div>
           </div>
+
+          <section className={styles.metrics} aria-label="Career highlights">
+            <dl className={styles.metricsGrid}>
+              <div className={styles.metric}>
+                <dt className={styles.metricValue}>7</dt>
+                <dd className={styles.metricLabel}>Political campaigns I&apos;ve designed</dd>
+              </div>
+              <div className={styles.metric}>
+                <dt className={styles.metricValue}>5+</dt>
+                <dd className={styles.metricLabel}>Startups I&apos;ve worked with</dd>
+              </div>
+              <div className={styles.metric}>
+                <dt className={styles.metricValue}>+12</dt>
+                <dd className={styles.metricLabel}>Years of work experience</dd>
+              </div>
+              <div className={styles.metric}>
+                <dt className={styles.metricValue}>6+</dt>
+                <dd className={styles.metricLabel}>Years working remotely within international teams</dd>
+              </div>
+            </dl>
+          </section>
         </section>
 
         <div className={styles.resume}>
