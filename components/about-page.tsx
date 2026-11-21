@@ -234,7 +234,7 @@ export function AboutPage() {
             <div className={styles.introCopy}>
               <p>I’m a Brazilian senior product designer with 7+ years of experience shipping products in fintech, AI and B2B SaaS. Most recently, I earned a masters&apos; degree in Design Studies from Harvard University.</p>
               <p>I started in graphic and web design, which gave me a strong visual foundation. Over time, I transitioned into product design. I believe research has the ability to give us insights on how products actually work – and, therefore, it is my favorite stage of the design process.</p>
-              <p>In my free time I enjoy being outdoors, whether by riding my bike, kayaking, or playing any team sports (such as tennis or basketball). I&apos;m also a big fan of live music, puzzles, and drawing.</p>
+              <p>In my free time I enjoy being outdoors, whether by riding my bike, kayaking, or playing any team sports (such as tennis or basketball). I&apos;m also a big fan of live music, puzzles, and public services.</p>
                           </div>
           </header>
 
