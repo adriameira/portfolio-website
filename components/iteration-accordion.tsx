@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import { useEffect, useId, useRef, useState, type KeyboardEvent } from "react"
+import { useId, useRef, useState, type KeyboardEvent } from "react"
 import styles from "./racial-justice-case-study.module.css"
 
 type IterationRound = {
@@ -19,16 +19,6 @@ export function IterationTabs({ rounds }: { rounds: IterationRound[] }) {
   const tabListRef = useRef<HTMLDivElement>(null)
   const tabIdPrefix = useId()
   const activeRound = rounds[activeIndex]
-
-  useEffect(() => {
-    if (rounds.length < 2) return
-
-    const timer = window.setTimeout(() => {
-      setActiveIndex((currentIndex) => (currentIndex + 1) % rounds.length)
-    }, 10_000)
-
-    return () => window.clearTimeout(timer)
-  }, [activeIndex, rounds.length])
 
   if (!activeRound) return null
 
@@ -70,7 +60,6 @@ export function IterationTabs({ rounds }: { rounds: IterationRound[] }) {
               onKeyDown={(event) => handleTabKeyDown(event, index)}
             >
               {round.label}
-              <span className={styles.iterationTabProgress} aria-hidden="true" />
             </button>
           )
         })}

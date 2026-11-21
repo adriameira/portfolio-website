@@ -328,7 +328,7 @@ export function AiAgentCaseStudy() {
             <span>Iterations</span>
           </div>
           <div className={styles.sectionBody}>
-            <h2 id="iterations-title">From “the AI does it” to “the AI shows its work”</h2>
+            <h2 id="iterations-title">Designing the AI experience</h2>
             <p>
               After the research stage, I mapped the core flow at low fidelity: Users start an analysis, upload their policy and choose who to be benchmarked against. They get two things back: an overall risk level and insights in six categories. 
             </p>
