@@ -12,19 +12,14 @@ type Metric = {
 }
 
 const metrics: Metric[] = [
+  { value: 5, label: "Startups I've worked with", padWithZero: true },
   {
-    value: 5,
-    suffix: "+",
-    label: "Startups I've worked with",
+    value: 6,
+    label: "Years working remotely within international teams",
     padWithZero: true,
   },
   { value: 7, label: "Political campaigns I've designed", padWithZero: true },
-  { value: 12, suffix: "+", label: "total Years of work experience" },
-  {
-    value: 6,
-    suffix: "+",
-    label: "Years working remotely within international teams",
-  },
+  { value: 12, label: "total Years of work experience" },
 ]
 
 function AnimatedMetric({
