@@ -1,18 +1,28 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react"
+import { type ReactNode, useEffect, useRef, useState } from "react"
 import styles from "./about-page.module.css"
 
 type Metric = {
   value: number
   prefix?: string
   suffix?: string
-  label: string
+  label: ReactNode
   padWithZero?: boolean
 }
 
 const metrics: Metric[] = [
-  { value: 5, label: "Startups I've worked with", padWithZero: true },
+  {
+    value: 5,
+    label: (
+      <>
+        Startups
+        <br />
+        I&apos;ve worked with
+      </>
+    ),
+    padWithZero: true,
+  },
   {
     value: 6,
     label: "Years working remotely within international teams",
@@ -103,7 +113,7 @@ export function AboutMetrics() {
     <section className={styles.metrics} aria-label="Career highlights">
       <dl className={styles.metricsGrid}>
         {metrics.map((metric) => (
-          <AnimatedMetric key={metric.label} {...metric} />
+          <AnimatedMetric key={metric.value} {...metric} />
         ))}
       </dl>
     </section>
