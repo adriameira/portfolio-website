@@ -104,6 +104,21 @@ const trainings: ResumeEntry[] = [
     title: "Successful Stakeholder Relationships\nPersuasive and Emotional Design\nMeasuring UX and ROI",
     organization: "Nielsen Norman Group",
   },
+  {
+    period: "2021",
+    title: "Digital Accessibility",
+    organization: "Mergo",
+  },
+  {
+    period: "2021",
+    title: "UX Lab",
+    organization: "Hyper Island",
+  },
+  {
+    period: "2021",
+    title: "Enterprise Design Thinking Practitioner",
+    organization: "IBM",
+  },
 ]
 
 const extra: ResumeEntry[] = [
