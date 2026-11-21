@@ -21,7 +21,7 @@ const civicWorks: CivicWork[] = [
     category: "Civic Design",
     location: "City of Boston Planning Department",
     year: "2025",
-    title: "Story Swap: A card game to build trust between the City of Boston and its residents",
+    title: "A card game for civic engagement in Boston (US)",
     description:
       "Boston’s Squares + Streets program wanted to engage a Vietnamese American neighborhood in their planning process. With the Planning Department, community leaders and a historian, my team designed Story Swap, a card game for conversations between generations to build trust and give the city a way to listen to its residents.",
   },
@@ -29,7 +29,7 @@ const civicWorks: CivicWork[] = [
     category: "Civic Design",
     location: "Somerville, Massachusetts",
     year: "2024",
-    title: "Co-Designing a procurement process with Trellick Tower and Edenham Estate",
+    title: "Co-designing a procurement process with Trellick Tower and Edenham Estate (UK)",
     description:
       "At Trellick Tower and Edenham Estate in London, residents waited months for repairs, saw work marked complete without anyone checking with them, and had no say in which contractors were hired or how. I facilitated two days of in-person workshops to map pain points and a service journey. The output is a resident-led procurement processes.",
   },
@@ -37,7 +37,7 @@ const civicWorks: CivicWork[] = [
     category: "Civic Tech",
     location: "Rio de Janeiro, Brazil",
     year: "2016",
-    title: "If the City Were Ours: A platform for writing policy together",
+    title: "A digital platform for politicians and residents to write policy together (Brazil)",
     description:
       "If the City Were Ours was a grassroots movement that aimed to co-create a mayoral platform with Rio de Janeiro residents. I designed the digital platform that connected its in-person meetings with online participation through a forum clustered by themes and neighborhood. The candidate whose platform it fed, Marcelo Freixo, reached the runoff and won 1,163,662 votes (40.6%).",
   },

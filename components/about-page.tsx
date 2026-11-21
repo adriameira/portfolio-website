@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Mail } from "lucide-react"
 import { WordRevealObserver } from "./word-reveal"
+import { AboutMetrics } from "./about-metrics"
 import styles from "./about-page.module.css"
 
 type ResumeEntry = {
@@ -216,7 +217,7 @@ export function AboutPage() {
             <div className={styles.introTitleColumn}>
               <h1 id="about-title">Oi, I&apos;m Adi! :)</h1>
               <nav className={styles.introLinks} aria-label="Contact Adi">
-                <a href="mailto:meira.adria@gmail.com">
+                <a href="mailto:adria_meira@gsd.harvard.edu">
                   <Mail aria-hidden="true" size={15} strokeWidth={2} />
                   E-MAIL
                 </a>
@@ -231,10 +232,10 @@ export function AboutPage() {
               </nav>
             </div>
             <div className={styles.introCopy}>
-              <p>I’m a Brazilian senior product designer with 7+ years of experience shipping products in fintech, AI and B2B SaaS. Most recently, I earned a Master in Design Studies from the Harvard Graduate School of Design.</p>
-              <p>I started in graphic and web design, which gave me a strong visual foundation. Over time I moved toward the harder problems: how products work, why people get stuck, and what makes them trust what they see.</p>
-              <p>I&apos;m always curious about framing problems, aligning stakeholders, and shipping products fast. I&apos;ve been the only designer in a project, built design systems from scratch, and designed flows used across global markets.</p>
-            </div>
+              <p>I’m a Brazilian senior product designer with 7+ years of experience shipping products in fintech, AI and B2B SaaS. Most recently, I earned a masters&apos; degree in Design Studies from Harvard University.</p>
+              <p>I started in graphic and web design, which gave me a strong visual foundation. Over time, I transitioned into product design. I believe research has the ability to give us insights on how products actually work – and, therefore, it is my favorite stage of the design process.</p>
+              <p>In my free time I enjoy being outdoors, whether by riding my bike, kayaking, or playing any team sports (such as tennis or basketball). I&apos;m also a big fan of live music, puzzles, and public services.</p>
+                          </div>
           </header>
 
           <div className={styles.photoGrid} aria-label="Photos from Adi&apos;s life">
@@ -248,12 +249,7 @@ export function AboutPage() {
                 />
               </figure>
               <blockquote className={styles.quote}>
-                <p>
-                  <strong>12 years of work experience</strong>
-                  <br />
-                  <strong>05</strong> in graphic and web design +<br />
-  <strong>07</strong> in digital product design
-                </p>
+                <p>In loving memory of Ted, the cat.</p>
               </blockquote>
             </div>
             <figure className={`${styles.photo} ${styles.adiPhoto}`}>
@@ -280,6 +276,8 @@ export function AboutPage() {
               </figure>
             </div>
           </div>
+
+          <AboutMetrics />
         </section>
 
         <div className={styles.resume}>
@@ -293,7 +291,7 @@ export function AboutPage() {
       <footer className={`contact-section ${styles.footer}`} data-appear id="contact">
         <h2>Ready to collaborate?</h2>
         <nav aria-label="Email and social links">
-          <a href="mailto:meira.adria@gmail.com">Email</a>
+          <a href="mailto:adria_meira@gsd.harvard.edu">Email</a>
           <a
             href="https://www.linkedin.com/in/adriameira/"
             target="_blank"

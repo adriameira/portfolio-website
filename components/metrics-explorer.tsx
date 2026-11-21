@@ -5,9 +5,9 @@ export function MetricsExplorer() {
   return (
     <div className={styles.metricsExplorer}>
       <div className={styles.metricsIntro}>
-        <h2 id="metrics-title">Defining the architecture</h2>
+        <h2 id="metrics-title">Defining metrics &amp; statuses</h2>
         <p>
-          Before any screen, we had to agree on which metrics mattered, and what each review status actually meant.
+          It was time to discuss which metrics mattered, and what each review status meant.
         </p>
       </div>
 

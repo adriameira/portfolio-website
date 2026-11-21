@@ -1650,33 +1650,7 @@
 }
 
 .iterationTab[aria-selected="true"] {
-  border-bottom-color: transparent;
-  }
-
-.iterationTab {
-  position: relative;
-  overflow: hidden;
-}
-
-.iterationTabProgress {
-  position: absolute;
-  right: 0;
-  bottom: -1px;
-  left: 0;
-  height: 2px;
-  transform: scaleX(0);
-  transform-origin: left;
-  background: var(--portfolio-accent);
-}
-
-.iterationTabActive .iterationTabProgress {
-  animation: iterationTabProgress 10s linear forwards;
-}
-
-@keyframes iterationTabProgress {
-  to {
-    transform: scaleX(1);
-  }
+  border-bottom-color: var(--portfolio-accent);
 }
 
 .iterationTab:focus-visible {

@@ -10,8 +10,8 @@ import { ResearchSlider } from "./eddi-research-slider"
 import { EddiIterationTabs } from "./eddi-iteration-tabs"
 
 const projectDetails = [
-  { label: "Role", value: "Senior Product Designer · only designer" },
-    { label: "Team", value: "CEO and engineers · no product manager" },
+  { label: "Role", value: "Senior Product Designer" },
+    { label: "Team", value: "CEO & 3 Engineers (No PM)." },
     { label: "Scope", value: "Product framing, flow audit, user interviews, ticket analysis, design goals, user flows, prototyping, design reviews, design system" },
   { label: "Tools", value: "Figma, Claude Design, HeroUI" },
 ]
@@ -167,7 +167,7 @@ export function EddiCaseStudy() {
           <Image className={`${caseStyles.heroLogo} ${styles.fullHeroLogo}`} src="/logos/eddi.svg" alt="Eddi logo" width={114} height={33} priority />
           <h1 className={caseStyles.heroTitle} id="eddi-title">{"From \"you're a match\" to \"ready to submit\""}</h1>
           <div className={caseStyles.heroIntro}>
-            <p>Eddi is an early-stage AI startup that helps nonprofits, schools, tribal governments, and cities find and win grants. Its AI could match an organization to funding and draft application documents. But the core workflow wasn&apos;t converting: people saw their matches and stopped there.</p>
+            <p>Eddi is an early-stage AI startup that helps institutions find and apply for grants. Its AI was able to match an organization to funding and draft application documents. But the core workflow wasn&apos;t converting: people saw their matches and stopped there.</p>
           </div>
           <figure className={`${caseStyles.caseMedia} ${styles.contextMedia}`}>
             <Image
@@ -189,7 +189,7 @@ export function EddiCaseStudy() {
             <div className={caseStyles.storySummary}>
               <p className={caseStyles.eyebrow}>Less AI, more direction</p>
               <h2>I turned an AI match into a guided application.</h2>
-              <p className={caseStyles.storyLead}>As Eddi&apos;s only designer, with no product manager, I owned grant matching end to end: problem framing, research, scope, design, and the foundations underneath it. The product didn&apos;t lack AI capability. It lacked direction. I reframed the work around one question: “What should the user do next?” and led four review rounds with the CEO and engineers in three weeks.</p>
+              <p className={caseStyles.storyLead}>As Eddi&apos;s only designer, with no product manager, I owned grant matching end to end: problem framing, research, scope, design, and the foundations underneath it. The product had AI capability but lacked lacked direction.</p>
               <details className={caseStyles.contributions}>
                 <summary>
                   <span>My contributions</span>
@@ -212,7 +212,7 @@ export function EddiCaseStudy() {
         </section>
 
         <CaseSection id="eddi-context-title" label="Context" title="An AI product with low conversion rates">
-          <p>Eddi is an operating system that brings operational, financial and staffing data into one a single platform. Its AI help teams without technical expertise manage their funding and track their outcomes. Funding is what keeps these organizations running, so grant matching was one of the product&apos;s main features. It finds grants an organization qualifies for and helps draft applications.</p>
+          <p>Eddi&apos;s system brings operational, financial and staffing data into a single platform. Its AI help teams without technical expertise find grants, draft applications, manage funding and track outcomes.</p>
           <p>I was the first design hire of the company, working directly with the CEO and engineers. With no product manager, product decisions defaulted to design: what problem we were solving, what success looked like, what to cut, and when a decision was final.</p>
           <figure className={`${caseStyles.caseMedia} ${styles.contextMedia}`}>
             <Image

@@ -7,7 +7,7 @@ import styles from "./eddi-case-study.module.css"
 const researchSlides = [
   {
     heading: "My grants",
-    body: "Everything looks equally important. Every card has the same weight and the same fields. There’s no primary action on the card and no sense of progress, so the board answers “what did the AI find?” but not “what should I do first?”",
+    body: "Everything looks equally important. Every card has the same weight and the same fields. There’s no primary action on the card and no sense of progress. The platform displays the grants found by the AI, but provides no guidance for users on what to do next.",
     src: "/case-studies/eddi-research-audit.svg",
     alt: "My grants board showing the grant cards",
     width: 1710,
