@@ -231,10 +231,9 @@ export function AboutPage() {
               </nav>
             </div>
             <div className={styles.introCopy}>
-              <p>I’m a Brazilian senior product designer with 7+ years of experience shipping products in fintech, AI and B2B SaaS. Most recently, I earned a Master in Design Studies from the Harvard Graduate School of Design.</p>
-              <p>I started in graphic and web design, which gave me a strong visual foundation. Over time I moved toward the harder problems: how products work, why people get stuck, and what makes them trust what they see.</p>
-              <p>I&apos;m always curious about framing problems, aligning stakeholders, and shipping products fast. I&apos;ve been the only designer in a project, built design systems from scratch, and designed flows used across global markets.</p>
-            </div>
+              <p>I’m a Brazilian senior product designer with 7+ years of experience shipping products in fintech, AI and B2B SaaS. Most recently, I earned a masters&apos; degree in Design Studies from Harvard University.</p>
+              <p>I started in graphic and web design, which gave me a strong visual foundation. Over time, I transitioned into product design. Now, I&apos;m always curious about how to frame problems, align stakeholders, and ship products quickly.</p>
+                          </div>
           </header>
 
           <div className={styles.photoGrid} aria-label="Photos from Adi&apos;s life">
