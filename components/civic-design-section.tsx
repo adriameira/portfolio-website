@@ -29,7 +29,7 @@ const civicWorks: CivicWork[] = [
     category: "Civic Design",
     location: "Somerville, Massachusetts",
     year: "2024",
-    title: "Co-designing a procurement process with Trellick Tower and Edenham Estate (UK)",
+    title: "A procurement process redesigned by residents (UK)",
     description:
       "At Trellick Tower and Edenham Estate in London, residents waited months for repairs, saw work marked complete without anyone checking with them, and had no say in which contractors were hired or how. I facilitated two days of in-person workshops to map pain points and a service journey. The output is a resident-led procurement processes.",
   },
@@ -45,7 +45,7 @@ const civicWorks: CivicWork[] = [
     category: "Civic Tech",
     location: "Electoral campaign, São Paulo, Brazil",
     year: "2018",
-    title: "Sâmia 5000: A campaign people could build themselves",
+    title: "A participatory campaign to Congress (Brazil)",
     description:
       "Sâmia Bomfim’s campaign for Brazil’s Congress treated the election as a matter of civic participation. As lead designer, I was responsible for the website, the brand and the printed materials, and mentored junior designers. The online platform allowed constituents to volunteer, donate, and open community headquarters. Sâmia was elected with almost 250k votes.",
   },
