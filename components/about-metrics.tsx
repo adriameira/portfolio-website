@@ -25,7 +25,7 @@ const metrics: Metric[] = [
   },
   {
     value: 6,
-    label: "Years working remotely within international teams",
+    label: "Years working in intl teams",
     padWithZero: true,
   },
   { value: 7, label: "Political campaigns I've designed", padWithZero: true },
