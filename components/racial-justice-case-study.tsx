@@ -192,21 +192,6 @@ export function RacialJusticeCaseStudy() {
           </div>
         </section>
 
-        <section className={styles.caseSection} data-appear aria-labelledby="system-boundary-title">
-          <div className={styles.sectionIndex}>
-            <span>System boundary</span>
-          </div>
-          <div className={styles.sectionBody}>
-            <h2 id="system-boundary-title">Deciding what the system should do</h2>
-            <p>
-              The AI already did steps 1 and 2 well. My work was deciding what should happen after a person verified a flag, and where the system should stop.
-            </p>
-            <p>
-              The machine reads, people verify, the system aggregates, historians interpret. I drew that boundary on purpose. With racial justice data, a system that draws historical conclusions on its own would be a credibility and ethics risk. The dashboard surfaces patterns and leaves the meaning to the researchers who publish it.
-            </p>
-          </div>
-        </section>
-
         <section className={styles.caseSection} data-appear aria-labelledby="metrics-title">
           <div className={styles.sectionIndex}>
             <span>DATA &amp; ARCHITECTURE</span>
