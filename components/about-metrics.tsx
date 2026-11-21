@@ -12,9 +12,14 @@ type Metric = {
 }
 
 const metrics: Metric[] = [
-  { value: 5, suffix: "+", label: "Startups I've worked with" },
+  {
+    value: 5,
+    suffix: "+",
+    label: "Startups I've worked with",
+    padWithZero: true,
+  },
   { value: 7, label: "Political campaigns I've designed", padWithZero: true },
-  { value: 12, suffix: "+", label: "Years of work experience" },
+  { value: 12, suffix: "+", label: "total Years of work experience" },
   {
     value: 6,
     suffix: "+",
