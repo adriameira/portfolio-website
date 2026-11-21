@@ -8,12 +8,13 @@ type Metric = {
   prefix?: string
   suffix?: string
   label: string
+  padWithZero?: boolean
 }
 
 const metrics: Metric[] = [
   { value: 5, suffix: "+", label: "Startups I've worked with" },
-  { value: 7, label: "Political campaigns I've designed" },
-  { value: 12, prefix: "+", label: "Years of work experience" },
+  { value: 7, label: "Political campaigns I've designed", padWithZero: true },
+  { value: 12, suffix: "+", label: "Years of work experience" },
   {
     value: 6,
     suffix: "+",
@@ -21,7 +22,13 @@ const metrics: Metric[] = [
   },
 ]
 
-function AnimatedMetric({ value, prefix = "", suffix = "", label }: Metric) {
+function AnimatedMetric({
+  value,
+  prefix = "",
+  suffix = "",
+  label,
+  padWithZero = false,
+}: Metric) {
   const numberRef = useRef<HTMLElement | null>(null)
   const [count, setCount] = useState(0)
 
@@ -82,7 +89,7 @@ function AnimatedMetric({ value, prefix = "", suffix = "", label }: Metric) {
         </span>
         <span aria-hidden="true">
           {prefix}
-          {count}
+          {padWithZero ? String(count).padStart(2, "0") : count}
           {suffix}
         </span>
       </dt>
