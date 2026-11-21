@@ -56,7 +56,7 @@ const iterationRounds = [
   {
     label: "Round 1",
     title: "A report of its own",
-    copy: "I pulled the analysis into a dedicated Policy Risk Analysis page. It had an overall score with a percentile against other companies, scores per category, and actionable insights that quoted the exact sentence in the user’s policy that needed work. Feedback pushed in two directions: merge the blocks into one view of tasks per category, and let each insight jump to the matching part of the document. That raised a question we couldn’t answer yet: what about insights that don’t belong to any one section?",
+    copy: "I pulled the analysis into a dedicated Policy Risk Analysis page. It had an overall score with a percentile against other companies, scores per category, and actionable insights that quoted the exact sentence in the user’s policy that needed work. Feedback pushed in two directions: merge the blocks into one view of tasks per category, and let each insight jump to the matching part of the document. ",
     src: "/case-studies/pyxos-round-2.svg",
     alt: "Round 1 wireframe: policy risk report with an analysis sidebar and category improvements",
     width: 1280,
