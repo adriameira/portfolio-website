@@ -20,7 +20,7 @@ const education: ResumeEntry[] = [
   },
   {
     period: "May 2024",
-    title: "Visiting Student",
+    title: "Short Course, Civic Design",
     organization: "University College London",
   },
   {
