@@ -83,8 +83,9 @@ const workExperience: ResumeEntry[] = [
   },
   {
     period: "2014 - 2019",
-    title: "Graphic + Web Designer",
-    organization: "Multiple Companies",
+    title: "Design Lead, Political Campaigns & Civic Platforms",
+    organization: "Political Party",
+    organizationPrefix: "",
   },
 ]
 
