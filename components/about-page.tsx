@@ -299,18 +299,27 @@ export function AboutPage() {
         </div>
       </main>
 
-      <footer className={`contact-section ${styles.footer}`} data-appear id="contact">
-        <h2>Ready to collaborate?</h2>
-        <nav aria-label="Email and social links">
-          <a href="mailto:adria_meira@gsd.harvard.edu">Email</a>
-          <a
-            href="https://www.linkedin.com/in/adriameira/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            LinkedIn
-          </a>
-        </nav>
+      <footer className={`contact-section ${styles.footerNoDivider}`} id="contact" aria-label="Contact and social links">
+        <div className="contact-bottomline">
+          <nav className="contact-social-links" aria-label="Email and social links">
+            <a
+              href="mailto:adria_meira@gsd.harvard.edu"
+              className="contact-social-link"
+              aria-label="Email Adria Meira"
+            >
+              <Mail aria-hidden="true" size={20} strokeWidth={1.8} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/adriameira"
+              className="contact-social-link"
+              aria-label="Adria Meira on LinkedIn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="/logos/linkedin-white.svg" alt="" aria-hidden="true" />
+            </a>
+          </nav>
+        </div>
       </footer>
       <WordRevealObserver />
     </div>
