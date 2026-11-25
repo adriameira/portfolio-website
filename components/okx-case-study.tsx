@@ -46,7 +46,7 @@ export function OkxCaseStudy() {
         </Link>
         <nav className="portfolio-nav" aria-label="About, CV and contact navigation">
           <a className="portfolio-nav-about" href="/about">ABOUT</a>
-          <a className="portfolio-nav-cv" href="https://drive.google.com/file/d/1g5VltqH3uZDEiDYH2cCTdAbhhjB0fTPq/view?usp=sharing" target="_blank" rel="noreferrer" aria-label="Download CV">CV <svg className="portfolio-nav-download-icon" aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 1.75v8.5m0 0 3-3m-3 3-3-3M2.5 10.75v2.75h11v-2.75" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg></a>
+          <a className="portfolio-nav-cv" href="https://blobs.vusercontent.net/blob/CV_AdriaMeira-XeZiLCnXoIGz8P0iVib3mkibQGpGcc.pdf" target="_blank" rel="noreferrer" aria-label="Download CV">CV <svg className="portfolio-nav-download-icon" aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 1.75v8.5m0 0 3-3m-3 3-3-3M2.5 10.75v2.75h11v-2.75" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg></a>
           <a className="portfolio-nav-cta" href="mailto:adria_meira@gsd.harvard.edu">CONTACT</a>
         </nav>
       </header>
