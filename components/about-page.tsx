@@ -82,11 +82,6 @@ const workExperience: ResumeEntry[] = [
     organization: "Cobli",
   },
   {
-    period: "2017",
-    title: "Graphic Designer",
-    organization: "United Nations",
-  },
-  {
     period: "2014 - 2019",
     title: "Graphic + Web Designer",
     organization: "Multiple Companies",
