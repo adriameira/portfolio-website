@@ -82,14 +82,10 @@ const workExperience: ResumeEntry[] = [
     organization: "Cobli",
   },
   {
-    period: "2017",
-    title: "Graphic Designer",
-    organization: "United Nations",
-  },
-  {
     period: "2014 - 2019",
-    title: "Graphic + Web Designer",
-    organization: "Multiple Companies",
+    title: "Design Lead, Political Campaigns & Civic Platforms",
+    organization: "Political Party",
+    organizationPrefix: "",
   },
 ]
 
@@ -218,7 +214,7 @@ export function AboutPage() {
         </Link>
         <nav className="portfolio-nav" aria-label="About, CV and contact navigation">
           <a className="portfolio-nav-about" href="/about" aria-current="page">ABOUT</a>
-          <a className="portfolio-nav-cv" href="https://drive.google.com/uc?export=download&id=1PN2ansPOPOqYJYY3yoMF40GxKK_9k5rE" target="_blank" rel="noreferrer" aria-label="Download CV">CV <svg className="portfolio-nav-download-icon" aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 1.75v8.5m0 0 3-3m-3 3-3-3M2.5 10.75v2.75h11v-2.75" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg></a>
+          <a className="portfolio-nav-cv" href="https://drive.google.com/file/d/1g5VltqH3uZDEiDYH2cCTdAbhhjB0fTPq/view?usp=sharing" target="_blank" rel="noreferrer" aria-label="Download CV">CV <svg className="portfolio-nav-download-icon" aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 1.75v8.5m0 0 3-3m-3 3-3-3M2.5 10.75v2.75h11v-2.75" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg></a>
           <a className="portfolio-nav-cta" href="mailto:adria_meira@gsd.harvard.edu">CONTACT</a>
         </nav>
       </header>
@@ -303,18 +299,27 @@ export function AboutPage() {
         </div>
       </main>
 
-      <footer className={`contact-section ${styles.footer}`} data-appear id="contact">
-        <h2>Ready to collaborate?</h2>
-        <nav aria-label="Email and social links">
-          <a href="mailto:adria_meira@gsd.harvard.edu">Email</a>
-          <a
-            href="https://www.linkedin.com/in/adriameira/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            LinkedIn
-          </a>
-        </nav>
+      <footer className={`contact-section ${styles.footerNoDivider}`} id="contact" aria-label="Contact and social links">
+        <div className="contact-bottomline">
+          <nav className="contact-social-links" aria-label="Email and social links">
+            <a
+              href="mailto:adria_meira@gsd.harvard.edu"
+              className="contact-social-link"
+              aria-label="Email Adria Meira"
+            >
+              <Mail aria-hidden="true" size={20} strokeWidth={1.8} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/adriameira"
+              className="contact-social-link"
+              aria-label="Adria Meira on LinkedIn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="/logos/linkedin-white.svg" alt="" aria-hidden="true" />
+            </a>
+          </nav>
+        </div>
       </footer>
       <WordRevealObserver />
     </div>
