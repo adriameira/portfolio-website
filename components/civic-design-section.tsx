@@ -1,55 +1,6 @@
+import Link from "next/link"
+import { civicWorks } from "./civic-work-data"
 import styles from "./civic-design-section.module.css"
-
-type CivicWork = {
-  category: "Civic Design" | "Civic Tech"
-  location: string
-  year: string
-  title: string
-  description: string
-}
-
-const civicWorks: CivicWork[] = [
-  {
-    category: "Civic Design",
-    location: "Cerro de Pasco, Peru",
-    year: "2025",
-    title: "A development plan for Cerro de Pasco (Peru)",
-    description:
-      "Cerro de Pasco grew around a mine. Over time, the mining company bought parcels across the city that it can’t legally expand into, so many sit abandoned, adding to waste and insecurity. Working with the municipality, I led the stakeholder mapping, defined how to engage each one, and connected  the city’s Plan de Desarrollo Urbano 2033 to a development framework.",
-  },
-  {
-    category: "Civic Design",
-    location: "City of Boston Planning Department",
-    year: "2025",
-    title: "A card game for civic engagement in Boston (US)",
-    description:
-      "Boston’s Squares + Streets program wanted to engage a Vietnamese American neighborhood in their planning process. With the Planning Department, community leaders and a historian, my team designed Story Swap, a card game for conversations between generations to build trust and give the city a way to listen to its residents.",
-  },
-  {
-    category: "Civic Design",
-    location: "Somerville, Massachusetts",
-    year: "2024",
-    title: "A procurement process redesigned by residents (UK)",
-    description:
-      "At Trellick Tower and Edenham Estate in London, residents waited months for repairs, saw work marked complete without anyone checking with them, and had no say in which contractors were hired or how. I facilitated two days of in-person workshops to map pain points and a service journey. The output is a resident-led procurement processes.",
-  },
-  {
-    category: "Civic Tech",
-    location: "Rio de Janeiro, Brazil",
-    year: "2016",
-    title: "A digital platform for politicians and residents to write policy together (Brazil)",
-    description:
-      "If the City Were Ours was a grassroots movement that aimed to co-create a mayoral platform with Rio de Janeiro residents. I designed the digital platform that connected its in-person meetings with online participation through a forum clustered by themes and neighborhood. The candidate whose platform it fed, Marcelo Freixo, reached the runoff and won 1,163,662 votes (40.6%).",
-  },
-  {
-    category: "Civic Tech",
-    location: "Electoral campaign, São Paulo, Brazil",
-    year: "2018",
-    title: "A participatory campaign to Congress (Brazil)",
-    description:
-      "Sâmia Bomfim’s campaign for Brazil’s Congress treated the election as a matter of civic participation. As lead designer, I was responsible for the website, the brand and the printed materials, and mentored junior designers. The online platform allowed constituents to volunteer, donate, and open community headquarters. Sâmia was elected with almost 250k votes.",
-  },
-]
 
 export function CivicDesignSection() {
   return (
@@ -60,9 +11,7 @@ export function CivicDesignSection() {
           <h2 className={styles.heading} id="civic-design-title">
             <span className={styles.headingSub}>Designing with cities, communities &amp; campaigns</span>
           </h2>
-          <p className={styles.headingBody}>
-            For a detailed case study, <a href="mailto:adria_meira@gsd.harvard.edu">email me</a>
-          </p>
+          <p className={styles.headingBody}>Explore a short public case study for each project below.</p>
         </header>
 
         <div className={styles.list}>
@@ -80,7 +29,10 @@ export function CivicDesignSection() {
                 </svg>
               </summary>
               <div className={styles.body}>
-                <p>{work.description}</p>
+                <p>{work.challenge} {work.approach} {work.outcome}</p>
+                <Link className={styles.caseStudyLink} href={`/civic-work/${work.slug}`}>
+                  Read the case study
+                </Link>
               </div>
             </details>
           ))}
