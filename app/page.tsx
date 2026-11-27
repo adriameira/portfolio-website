@@ -1,4 +1,9 @@
 import { Mail } from "lucide-react"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+}
 import { CaseStudyGrid } from "../components/case-study-grid"
 import { CivicDesignSection } from "../components/civic-design-section"
 import { WordRevealObserver, WordRevealText } from "../components/word-reveal"
@@ -76,7 +81,7 @@ export default function Home() {
         </a>
         <nav className="portfolio-nav" aria-label="About, CV and contact navigation">
           <a className="portfolio-nav-about" href="/about">ABOUT</a>
-          <a className="portfolio-nav-cv" href="https://blobs.vusercontent.net/blob/CV_AdriaMeira-XeZiLCnXoIGz8P0iVib3mkibQGpGcc.pdf" target="_blank" rel="noreferrer" aria-label="Download CV">CV <svg className="portfolio-nav-download-icon" aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 1.75v8.5m0 0 3-3m-3 3-3-3M2.5 10.75v2.75h11v-2.75" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg></a>
+          <a className="portfolio-nav-cv" href="/adria-meira-cv.pdf" download aria-label="Download Adria Meira CV">CV <svg className="portfolio-nav-download-icon" aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 1.75v8.5m0 0 3-3m-3 3-3-3M2.5 10.75v2.75h11v-2.75" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg></a>
           <a className="portfolio-nav-cta" href="mailto:adria_meira@gsd.harvard.edu">CONTACT</a>
         </nav>
       </header>
@@ -87,20 +92,17 @@ export default function Home() {
             <h1 className="portfolio-hero-title" id="portfolio-hero-title" data-word-reveal>
               <span className="portfolio-hero-title-visual" aria-hidden="true">
                 <span className="contact-title-word portfolio-hero-title-line">
-                  <span className="portfolio-hero-title-word--light">Adi designs for</span>
+                  <span className="portfolio-hero-title-word--light">Adria Meira,</span>
                 </span>
                 <span className="contact-title-word contact-title-word--second portfolio-hero-title-line">
-                  <span className="portfolio-hero-title-word--bold">startups, global companies</span>
-                </span>
-                <span className="contact-title-word portfolio-hero-title-line portfolio-hero-title-line--third">
-                  <span className="portfolio-hero-title-word--medium">and governments</span>
+                  <span className="portfolio-hero-title-word--bold">Senior Product Designer</span>
                 </span>
               </span>
-              <span className="sr-only">Adi designs for startups, global companies and governments</span>
+              <span className="sr-only">Adria Meira, Senior Product Designer</span>
             </h1>
             <div className="portfolio-hero-copy">
               <p className="portfolio-hero-bio">
-                <WordRevealText text="Harvard University alumna with 7 years of work experience in digital product design" />
+                <WordRevealText text="Boston-based senior product designer specializing in fintech, AI and compliance UX" />
                 <br />
                 <WordRevealText text="Available to work in the US and worldwide" />
               </p>

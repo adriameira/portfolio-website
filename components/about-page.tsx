@@ -214,7 +214,7 @@ export function AboutPage() {
         </Link>
         <nav className="portfolio-nav" aria-label="About, CV and contact navigation">
           <a className="portfolio-nav-about" href="/about" aria-current="page">ABOUT</a>
-          <a className="portfolio-nav-cv" href="https://blobs.vusercontent.net/blob/CV_AdriaMeira-XeZiLCnXoIGz8P0iVib3mkibQGpGcc.pdf" target="_blank" rel="noreferrer" aria-label="Download CV">CV <svg className="portfolio-nav-download-icon" aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 1.75v8.5m0 0 3-3m-3 3-3-3M2.5 10.75v2.75h11v-2.75" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg></a>
+          <a className="portfolio-nav-cv" href="/adria-meira-cv.pdf" download aria-label="Download Adria Meira CV">CV <svg className="portfolio-nav-download-icon" aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 1.75v8.5m0 0 3-3m-3 3-3-3M2.5 10.75v2.75h11v-2.75" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg></a>
           <a className="portfolio-nav-cta" href="mailto:adria_meira@gsd.harvard.edu">CONTACT</a>
         </nav>
       </header>
@@ -223,10 +223,10 @@ export function AboutPage() {
         <section className={styles.intro} data-appear aria-labelledby="about-title">
           <header className={styles.introHeader}>
             <p className={styles.heroDescriptor}>
-              Harvard GSD &apos;26<br />Ex-fintech, AI, politics
+              Boston, MA<br />Harvard GSD &apos;26 · Ex-fintech, AI, politics
             </p>
             <div className={styles.introTitleColumn}>
-              <h1 id="about-title">Oi, I&apos;m Adi! :)</h1>
+              <h1 id="about-title">Oi, I&apos;m Adria Meira</h1>
               <nav className={styles.introLinks} aria-label="Contact Adi">
                 <a href="mailto:adria_meira@gsd.harvard.edu">
                   <Mail aria-hidden="true" size={15} strokeWidth={2} />
@@ -243,7 +243,7 @@ export function AboutPage() {
               </nav>
             </div>
             <div className={styles.introCopy}>
-              <p>I’m a Brazilian senior product designer with 7+ years of experience shipping products in fintech, AI and B2B SaaS. Most recently, I earned a masters&apos; degree in Design Studies from Harvard University.</p>
+              <p>I’m Adria Meira, a Brazilian senior product designer in Boston with 7+ years of experience shipping fintech, AI, compliance, and B2B SaaS products. I earned my Master in Design Studies from Harvard University.</p>
               <p>I started in graphic and web design, which gave me a strong visual foundation. Over time, I transitioned into product design. I believe research has the ability to give us insights on how products actually work – and, therefore, it is my favorite stage of the design process.</p>
               <p>In my free time I enjoy being outdoors, whether by riding my bike, kayaking, or playing any team sports (such as tennis or basketball). I&apos;m also a big fan of live music, puzzles, and public services.</p>
                           </div>

@@ -23,15 +23,11 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    process.env.VERCEL_PROJECT_PRODUCTION_URL
-      ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-      : process.env.VERCEL_URL
-        ? `https://${process.env.VERCEL_URL}`
-        : 'http://localhost:3000',
-  ),
-  title: 'Adi Meira – Senior Product Designer',
-  description: 'Adi is a Harvard University alumn and a senior product designer with 7+ years of work experience',
+  metadataBase: new URL('https://a-meira.com'),
+  title: 'Adria Meira – Senior Product Designer | Fintech & AI Products | Boston',
+  description:
+    'Adria Meira is a Senior Product Designer in Boston specializing in fintech, AI and compliance UX. Ex-OKX, Harvard GSD. Case studies in KYC, AI agents and design systems.',
+  keywords: ['Adria Meira', 'Senior Product Designer', 'fintech', 'AI', 'compliance UX', 'Boston'],
   generator: 'v0.app',
   icons: {
     icon: [
@@ -51,23 +47,44 @@ export const metadata: Metadata = {
     apple: '/apple-icon.png',
   },
   openGraph: {
-    title: 'Adi Meira – Senior Product Designer',
-    description: 'Adi is a Harvard University alumn and a senior product designer with 7+ years of work experience',
+    title: 'Adria Meira – Senior Product Designer | Fintech & AI Products | Boston',
+    description:
+      'Adria Meira is a Senior Product Designer in Boston specializing in fintech, AI and compliance UX. Ex-OKX, Harvard GSD. Case studies in KYC, AI agents and design systems.',
+    siteName: 'Adria Meira',
+    url: 'https://a-meira.com',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Adi Meira, a Harvard alum and senior product designer with 7+ years of experience',
+        alt: 'Adria Meira, Senior Product Designer in fintech and AI',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Adi Meira – Senior Product Designer',
-    description: 'Adi is a Harvard University alumn and a senior product designer with 7+ years of work experience',
+    title: 'Adria Meira – Senior Product Designer | Fintech & AI Products | Boston',
+    description:
+      'Adria Meira is a Senior Product Designer in Boston specializing in fintech, AI and compliance UX. Ex-OKX, Harvard GSD. Case studies in KYC, AI agents and design systems.',
     images: ['/og-image.png'],
   },
+}
+
+const personJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Adria Meira',
+  alternateName: 'Adi Meira',
+  jobTitle: 'Senior Product Designer',
+  url: 'https://a-meira.com',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Boston',
+    addressRegion: 'MA',
+    addressCountry: 'US',
+  },
+  sameAs: ['https://www.linkedin.com/in/adriameira/'],
+  knowsAbout: ['Fintech', 'AI products', 'Compliance UX', 'Civic technology', 'Product design'],
 }
 
 export const viewport: Viewport = {
@@ -88,6 +105,10 @@ export default function RootLayout({
     >
       <body className="antialiased font-sans" suppressHydrationWarning>
         {children}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd).replace(/</g, "\\u003c") }}
+        />
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>

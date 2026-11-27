@@ -1,0 +1,117 @@
+.main {
+  padding-top: var(--portfolio-header-height);
+}
+
+.article {
+  width: min(1000px, calc(100% - var(--portfolio-gutter) - var(--portfolio-gutter)));
+  margin-inline: auto;
+  padding-block: clamp(4rem, 10vw, 8rem);
+}
+
+.backLink,
+.projectLinks a {
+  color: var(--portfolio-ink);
+  font-family: var(--portfolio-label-font);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-underline-offset: 0.25em;
+}
+
+.backLink:focus-visible,
+.projectLinks a:focus-visible {
+  outline: 2px solid var(--portfolio-accent);
+  outline-offset: 4px;
+}
+
+.eyebrow {
+  margin: clamp(3rem, 8vw, 6rem) 0 0.5rem;
+  color: var(--portfolio-accent);
+  font-family: var(--portfolio-label-font);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.metadata {
+  margin: 0;
+  color: var(--portfolio-stone);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.title {
+  max-width: 15ch;
+  margin: 1rem 0 0;
+  font-size: clamp(2.75rem, 7vw, 6.25rem);
+  font-weight: 600;
+  letter-spacing: -0.06em;
+  line-height: 0.98;
+  text-wrap: balance;
+}
+
+.byline {
+  max-width: 58ch;
+  margin: 1.5rem 0 0;
+  color: var(--portfolio-stone);
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  line-height: 1.6;
+  text-wrap: pretty;
+}
+
+.sections {
+  display: grid;
+  width: min(100%, 760px);
+  gap: 2rem;
+  margin-top: clamp(3rem, 8vw, 5rem);
+}
+
+.section {
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--portfolio-border);
+}
+
+.section h2 {
+  margin: 0;
+  font-family: var(--portfolio-label-font);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.section p {
+  max-width: 66ch;
+  margin: 0.8rem 0 0;
+  color: var(--portfolio-stone);
+  font-size: 1.1rem;
+  line-height: 1.65;
+  text-wrap: pretty;
+}
+
+.projectLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 3.5rem;
+}
+
+@media (max-width: 700px) {
+  .article {
+    padding-block: 3rem 5rem;
+  }
+
+  .title {
+    font-size: clamp(2.5rem, 11vw, 4rem);
+  }
+
+  .sections {
+    gap: 1.5rem;
+  }
+
+  .projectLinks {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
