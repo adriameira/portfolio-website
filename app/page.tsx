@@ -92,19 +92,24 @@ export default function Home() {
             <h1 className="portfolio-hero-title" id="portfolio-hero-title" data-word-reveal>
               <span className="portfolio-hero-title-visual" aria-hidden="true">
                 <span className="contact-title-word portfolio-hero-title-line">
-                  <span className="portfolio-hero-title-word--light">Adria Meira,</span>
+                  <span className="portfolio-hero-title-word--light">Adi designs for</span>
                 </span>
                 <span className="contact-title-word contact-title-word--second portfolio-hero-title-line">
-                  <span className="portfolio-hero-title-word--bold">Senior Product Designer</span>
+                  <span className="portfolio-hero-title-word--bold">startups, global companies</span>
+                </span>
+                <span className="contact-title-word portfolio-hero-title-line portfolio-hero-title-line--third">
+                  <span className="portfolio-hero-title-word--medium">and governments</span>
                 </span>
               </span>
-              <span className="sr-only">Adria Meira, Senior Product Designer</span>
+              <span className="sr-only">Adi designs for startups, global companies and governments</span>
             </h1>
             <div className="portfolio-hero-copy">
               <p className="portfolio-hero-bio">
-                <WordRevealText text="Boston-based senior product designer specializing in fintech, AI and compliance UX" />
+                <WordRevealText text="Senior product designer specializing in fintech, AI and compliance UX" />
                 <br />
-                <WordRevealText text="Available to work in the US and worldwide" />
+                <WordRevealText text="Harvard University alumna" />
+                <br />
+                <WordRevealText text="Available to work in the US, Brazil and worldwide" />
               </p>
             </div>
           </div>
