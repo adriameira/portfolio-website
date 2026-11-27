@@ -226,7 +226,7 @@ export function AboutPage() {
               Boston, MA<br />Harvard GSD &apos;26 · Ex-fintech, AI, politics
             </p>
             <div className={styles.introTitleColumn}>
-              <h1 id="about-title">Oi, I&apos;m Adria Meira</h1>
+              <h1 id="about-title">Oi, I&apos;m Adi!</h1>
               <nav className={styles.introLinks} aria-label="Contact Adi">
                 <a href="mailto:adria_meira@gsd.harvard.edu">
                   <Mail aria-hidden="true" size={15} strokeWidth={2} />
@@ -243,7 +243,7 @@ export function AboutPage() {
               </nav>
             </div>
             <div className={styles.introCopy}>
-              <p>I’m Adria Meira, a Brazilian senior product designer in Boston with 7+ years of experience shipping fintech, AI, compliance, and B2B SaaS products. I earned my Master in Design Studies from Harvard University.</p>
+              <p>I’m Adria Meira (but please call me Adi!), a Brazilian senior product designer in Boston with 7+ years of experience shipping fintech, AI, compliance, and B2B SaaS products. I earned my Master in Design Studies from Harvard University.</p>
               <p>I started in graphic and web design, which gave me a strong visual foundation. Over time, I transitioned into product design. I believe research has the ability to give us insights on how products actually work – and, therefore, it is my favorite stage of the design process.</p>
               <p>In my free time I enjoy being outdoors, whether by riding my bike, kayaking, or playing any team sports (such as tennis or basketball). I&apos;m also a big fan of live music, puzzles, and public services.</p>
                           </div>
