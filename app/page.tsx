@@ -105,7 +105,7 @@ export default function Home() {
             </h1>
             <div className="portfolio-hero-copy">
               <p className="portfolio-hero-bio">
-                <WordRevealText text="Boston-based senior product designer specializing in fintech, AI and compliance UX" />
+                <WordRevealText text="Senior product designer specializing in fintech, AI and compliance UX" />
                 <br />
                 <WordRevealText text="Harvard University alumna" />
                 <br />
